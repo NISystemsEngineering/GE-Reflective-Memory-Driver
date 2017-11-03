@@ -15,7 +15,7 @@
 	</Item>
 	<Item Name="RT PXI Target" Type="RT PXI Chassis">
 		<Property Name="alias.name" Type="Str">RT PXI Target</Property>
-		<Property Name="alias.value" Type="Str">10.1.129.109</Property>
+		<Property Name="alias.value" Type="Str">10.1.128.32</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,PharLap;CPU,x86;</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
 		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
@@ -94,14 +94,37 @@ AddOutputFilter chunkFilter
 			<Item Name="GE 5565PIORC.lvclass" Type="LVClass" URL="../../Source/GE 5565PIORC/GE 5565PIORC.lvclass"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
+			<Item Name="Benchmarking" Type="Folder">
+				<Item Name="Controls" Type="Folder">
+					<Item Name="Overhead Metrics.ctl" Type="VI" URL="../Tests/Benchmarking/Controls/Overhead Metrics.ctl"/>
+					<Item Name="Throughput Metrics.ctl" Type="VI" URL="../Tests/Benchmarking/Controls/Throughput Metrics.ctl"/>
+				</Item>
+				<Item Name="SubVIs" Type="Folder">
+					<Item Name="Block Read Iterator.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Block Read Iterator.vi"/>
+					<Item Name="Block Read Multiple Iterator.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Block Read Multiple Iterator.vi"/>
+					<Item Name="Block Read.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Block Read.vi"/>
+					<Item Name="Block Write Iterator.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Block Write Iterator.vi"/>
+					<Item Name="Block Write Multiple Iterator.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Block Write Multiple Iterator.vi"/>
+					<Item Name="Block Write.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Block Write.vi"/>
+					<Item Name="Calculate Throughput Metrics.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Calculate Throughput Metrics.vi"/>
+					<Item Name="Condense Histogram.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Condense Histogram.vi"/>
+					<Item Name="Overhead Read.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Overhead Read.vi"/>
+					<Item Name="Overhead Write.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Overhead Write.vi"/>
+					<Item Name="Scatter-Gather Read Iterator.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Scatter-Gather Read Iterator.vi"/>
+					<Item Name="Scatter-Gather Read Multiple Iterator.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Scatter-Gather Read Multiple Iterator.vi"/>
+					<Item Name="Scatter-Gather Read.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Scatter-Gather Read.vi"/>
+					<Item Name="Scatter-Gather Write Iterator.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Scatter-Gather Write Iterator.vi"/>
+					<Item Name="Scatter-Gather Write Multiple Iterator.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Scatter-Gather Write Multiple Iterator.vi"/>
+					<Item Name="Scatter-Gather Write.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Scatter-Gather Write.vi"/>
+				</Item>
+				<Item Name="Benchmark DMA.vi" Type="VI" URL="../Tests/Benchmarking/Benchmark DMA.vi"/>
+			</Item>
 			<Item Name="Old Driver" Type="Folder">
 				<Item Name="GE 5565 Dual Card.vi" Type="VI" URL="../Tests/Old Driver/GE 5565 Dual Card.vi"/>
 				<Item Name="GE 5565 Write.vi" Type="VI" URL="../Tests/Old Driver/GE 5565 Write.vi"/>
 				<Item Name="GE5565 DMA Read Interrupt (U64) Cluster 2.vi" Type="VI" URL="../Tests/Old Driver/GE5565 DMA Read Interrupt (U64) Cluster 2.vi"/>
 				<Item Name="GE5565 DMA Write Interrupt (U8).vi" Type="VI" URL="../Tests/Old Driver/GE5565 DMA Write Interrupt (U8).vi"/>
 			</Item>
-			<Item Name="Block Test.vi" Type="VI" URL="../Tests/Block Test.vi"/>
-			<Item Name="Scatter-Gather Test.vi" Type="VI" URL="../Tests/Scatter-Gather Test.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
@@ -115,8 +138,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="DSDisposePtr.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/importsl/DSDisposePtr.vi"/>
-				<Item Name="DSNewPtr.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/importsl/DSNewPtr.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
@@ -132,6 +153,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="ni_emb.dll" Type="Document" URL="/&lt;vilib&gt;/ni_emb.dll"/>
 				<Item Name="NI_Real-Time Target Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI_Real-Time Target Support.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
@@ -147,7 +169,7 @@ AddOutputFilter chunkFilter
 				<Item Name="VISA Register Access Address Space.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Register Access Address Space.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="GE5565 DMA Read Interrupt (U64) Cluster.vi" Type="VI" URL="../Tests/GE5565 DMA Read Interrupt (U64) Cluster.vi"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
