@@ -15,7 +15,7 @@
 	</Item>
 	<Item Name="RT PXI Target" Type="RT PXI Chassis">
 		<Property Name="alias.name" Type="Str">RT PXI Target</Property>
-		<Property Name="alias.value" Type="Str">10.1.128.32</Property>
+		<Property Name="alias.value" Type="Str">10.1.128.89</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,PharLap;CPU,x86;</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
 		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
@@ -94,37 +94,62 @@ AddOutputFilter chunkFilter
 			<Item Name="GE 5565PIORC.lvclass" Type="LVClass" URL="../../Source/GE 5565PIORC/GE 5565PIORC.lvclass"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
-			<Item Name="Benchmarking" Type="Folder">
-				<Item Name="Controls" Type="Folder">
-					<Item Name="Overhead Metrics.ctl" Type="VI" URL="../Tests/Benchmarking/Controls/Overhead Metrics.ctl"/>
-					<Item Name="Throughput Metrics.ctl" Type="VI" URL="../Tests/Benchmarking/Controls/Throughput Metrics.ctl"/>
+			<Item Name="DMA" Type="Folder">
+				<Item Name="Benchmarking" Type="Folder">
+					<Item Name="Controls" Type="Folder">
+						<Item Name="Overhead Metrics.ctl" Type="VI" URL="../Tests/Benchmarking/Controls/Overhead Metrics.ctl"/>
+						<Item Name="Throughput Metrics.ctl" Type="VI" URL="../Tests/Benchmarking/Controls/Throughput Metrics.ctl"/>
+					</Item>
+					<Item Name="SubVIs" Type="Folder">
+						<Item Name="(Old Driver) Block Read Iterator.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/(Old Driver) Block Read Iterator.vi"/>
+						<Item Name="(Old Driver) Block Read Multiple Iterator.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/(Old Driver) Block Read Multiple Iterator.vi"/>
+						<Item Name="(Old Driver) Block Read.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/(Old Driver) Block Read.vi"/>
+						<Item Name="(Old Driver) Block Write Iterator.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/(Old Driver) Block Write Iterator.vi"/>
+						<Item Name="(Old Driver) Block Write Multiple Iterator.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/(Old Driver) Block Write Multiple Iterator.vi"/>
+						<Item Name="(Old Driver) Block Write.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/(Old Driver) Block Write.vi"/>
+						<Item Name="Block Read Iterator.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Block Read Iterator.vi"/>
+						<Item Name="Block Read Multiple Iterator.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Block Read Multiple Iterator.vi"/>
+						<Item Name="Block Read.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Block Read.vi"/>
+						<Item Name="Block Write Iterator.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Block Write Iterator.vi"/>
+						<Item Name="Block Write Multiple Iterator.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Block Write Multiple Iterator.vi"/>
+						<Item Name="Block Write.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Block Write.vi"/>
+						<Item Name="Calculate Throughput Metrics.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Calculate Throughput Metrics.vi"/>
+						<Item Name="Condense Histogram.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Condense Histogram.vi"/>
+						<Item Name="Overhead Read.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Overhead Read.vi"/>
+						<Item Name="Overhead Write.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Overhead Write.vi"/>
+						<Item Name="Scatter-Gather Read Iterator.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Scatter-Gather Read Iterator.vi"/>
+						<Item Name="Scatter-Gather Read Multiple Iterator.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Scatter-Gather Read Multiple Iterator.vi"/>
+						<Item Name="Scatter-Gather Read.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Scatter-Gather Read.vi"/>
+						<Item Name="Scatter-Gather Write Iterator.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Scatter-Gather Write Iterator.vi"/>
+						<Item Name="Scatter-Gather Write Multiple Iterator.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Scatter-Gather Write Multiple Iterator.vi"/>
+						<Item Name="Scatter-Gather Write.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Scatter-Gather Write.vi"/>
+					</Item>
+					<Item Name="Benchmark DMA.vi" Type="VI" URL="../Tests/Benchmarking/Benchmark DMA.vi"/>
 				</Item>
-				<Item Name="SubVIs" Type="Folder">
-					<Item Name="Block Read Iterator.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Block Read Iterator.vi"/>
-					<Item Name="Block Read Multiple Iterator.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Block Read Multiple Iterator.vi"/>
-					<Item Name="Block Read.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Block Read.vi"/>
-					<Item Name="Block Write Iterator.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Block Write Iterator.vi"/>
-					<Item Name="Block Write Multiple Iterator.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Block Write Multiple Iterator.vi"/>
-					<Item Name="Block Write.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Block Write.vi"/>
-					<Item Name="Calculate Throughput Metrics.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Calculate Throughput Metrics.vi"/>
-					<Item Name="Condense Histogram.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Condense Histogram.vi"/>
-					<Item Name="Overhead Read.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Overhead Read.vi"/>
-					<Item Name="Overhead Write.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Overhead Write.vi"/>
-					<Item Name="Scatter-Gather Read Iterator.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Scatter-Gather Read Iterator.vi"/>
-					<Item Name="Scatter-Gather Read Multiple Iterator.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Scatter-Gather Read Multiple Iterator.vi"/>
-					<Item Name="Scatter-Gather Read.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Scatter-Gather Read.vi"/>
-					<Item Name="Scatter-Gather Write Iterator.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Scatter-Gather Write Iterator.vi"/>
-					<Item Name="Scatter-Gather Write Multiple Iterator.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Scatter-Gather Write Multiple Iterator.vi"/>
-					<Item Name="Scatter-Gather Write.vi" Type="VI" URL="../Tests/Benchmarking/SubVIs/Scatter-Gather Write.vi"/>
-				</Item>
-				<Item Name="Benchmark DMA.vi" Type="VI" URL="../Tests/Benchmarking/Benchmark DMA.vi"/>
 			</Item>
-			<Item Name="Old Driver" Type="Folder">
-				<Item Name="GE 5565 Dual Card.vi" Type="VI" URL="../Tests/Old Driver/GE 5565 Dual Card.vi"/>
-				<Item Name="GE 5565 Write.vi" Type="VI" URL="../Tests/Old Driver/GE 5565 Write.vi"/>
-				<Item Name="GE5565 DMA Read Interrupt (U64) Cluster 2.vi" Type="VI" URL="../Tests/Old Driver/GE5565 DMA Read Interrupt (U64) Cluster 2.vi"/>
-				<Item Name="GE5565 DMA Write Interrupt (U8).vi" Type="VI" URL="../Tests/Old Driver/GE5565 DMA Write Interrupt (U8).vi"/>
+			<Item Name="PIO" Type="Folder">
+				<Item Name="PIO Read Scalar vs Array.vi" Type="VI" URL="../Tests/PIO/PIO Read Scalar vs Array.vi"/>
+				<Item Name="PIO Read Transfer Size Comparison.vi" Type="VI" URL="../Tests/PIO/PIO Read Transfer Size Comparison.vi"/>
+				<Item Name="PIO Read U8 vs U32.vi" Type="VI" URL="../Tests/PIO/PIO Read U8 vs U32.vi"/>
+				<Item Name="PIO Read U32 vs Byte-Swapped U32.vi" Type="VI" URL="../Tests/PIO/PIO Read U32 vs Byte-Swapped U32.vi"/>
+				<Item Name="PIO Write Read.vi" Type="VI" URL="../Tests/PIO/PIO Write Read.vi"/>
 			</Item>
+			<Item Name="VISA" Type="Folder">
+				<Item Name="VISA BAR3 Read U8 vs U64.vi" Type="VI" URL="../Tests/VISA BAR3 Read U8 vs U64.vi"/>
+				<Item Name="VISA BAR3 Write U8 vs U64.vi" Type="VI" URL="../Tests/VISA BAR3 Write U8 vs U64.vi"/>
+				<Item Name="VISA MEMACC Read U8 vs U64.vi" Type="VI" URL="../Tests/VISA MEMACC Read U8 vs U64.vi"/>
+				<Item Name="VISA MEMACC Write U8 vs U32.vi" Type="VI" URL="../Tests/VISA MEMACC Write U8 vs U32.vi"/>
+				<Item Name="VISA MEMACC Write U8 vs U64.vi" Type="VI" URL="../Tests/VISA MEMACC Write U8 vs U64.vi"/>
+			</Item>
+			<Item Name="Change Base Address Benchmark.vi" Type="VI" URL="../Tests/Change Base Address Benchmark.vi"/>
+			<Item Name="DBL U64 Binary View.vi" Type="VI" URL="../Tests/DBL U64 Binary View.vi"/>
+			<Item Name="DMA and PIO Write Read.vi" Type="VI" URL="../Tests/DMA and PIO Write Read.vi"/>
+			<Item Name="Endianness.vi" Type="VI" URL="../Tests/Endianness.vi"/>
+			<Item Name="PIO Read Benchmark.vi" Type="VI" URL="../Tests/PIO Read Benchmark.vi"/>
+			<Item Name="Range Mask.vi" Type="VI" URL="../Tests/Range Mask.vi"/>
+			<Item Name="Read Address Range.vi" Type="VI" URL="../Tests/Read Address Range.vi"/>
+			<Item Name="Read DIP Switches.vi" Type="VI" URL="../Tests/Read DIP Switches.vi"/>
+			<Item Name="Signal Detect.vi" Type="VI" URL="../Tests/Signal Detect.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
@@ -138,7 +163,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
@@ -154,8 +178,6 @@ AddOutputFilter chunkFilter
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
-				<Item Name="ni_emb.dll" Type="Document" URL="/&lt;vilib&gt;/ni_emb.dll"/>
-				<Item Name="NI_Real-Time Target Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI_Real-Time Target Support.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Select Event Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/Select Event Type.ctl"/>
