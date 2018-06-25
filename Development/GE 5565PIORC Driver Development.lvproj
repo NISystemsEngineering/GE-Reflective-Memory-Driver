@@ -153,7 +153,14 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
-				<Item Name="GE 5565 PIORC.lvlib" Type="Library" URL="/&lt;instrlib&gt;/GE 5565 PIORC/GE 5565 PIORC.lvlib"/>
+				<Item Name="GE5565 Close (Cluster).vi" Type="VI" URL="/&lt;instrlib&gt;/GE 5565 PIORC/Public/GE5565 Close (Cluster).vi"/>
+				<Item Name="GE5565 Disable DMA Interrupt (Cluster).vi" Type="VI" URL="/&lt;instrlib&gt;/GE 5565 PIORC/Public/DMA Interrupt/GE5565 Disable DMA Interrupt (Cluster).vi"/>
+				<Item Name="GE5565 DMA Read Interrupt (Cluster).vi" Type="VI" URL="/&lt;instrlib&gt;/GE 5565 PIORC/Public/DMA Interrupt/GE5565 DMA Read Interrupt (Cluster).vi"/>
+				<Item Name="GE5565 DMA Read Interrupt (U8) Cluster.vi" Type="VI" URL="/&lt;instrlib&gt;/GE 5565 PIORC/Public/DMA Interrupt/GE5565 DMA Read Interrupt (U8) Cluster.vi"/>
+				<Item Name="GE5565 DMA Write Interrupt (Cluster).vi" Type="VI" URL="/&lt;instrlib&gt;/GE 5565 PIORC/Public/DMA Interrupt/GE5565 DMA Write Interrupt (Cluster).vi"/>
+				<Item Name="GE5565 DMA Write Interrupt (U8) Cluster.vi" Type="VI" URL="/&lt;instrlib&gt;/GE 5565 PIORC/Public/DMA Interrupt/GE5565 DMA Write Interrupt (U8) Cluster.vi"/>
+				<Item Name="GE5565 Enable DMA Interrupt (Cluster).vi" Type="VI" URL="/&lt;instrlib&gt;/GE 5565 PIORC/Public/DMA Interrupt/GE5565 Enable DMA Interrupt (Cluster).vi"/>
+				<Item Name="GE5565 Open (Cluster).vi" Type="VI" URL="/&lt;instrlib&gt;/GE 5565 PIORC/Public/GE5565 Open (Cluster).vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
