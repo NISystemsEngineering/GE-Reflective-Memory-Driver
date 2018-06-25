@@ -91,7 +91,8 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Source" Type="Folder">
-			<Item Name="GE 5565PIORC.lvclass" Type="LVClass" URL="../../Source/GE 5565PIORC/GE 5565PIORC.lvclass"/>
+			<Item Name="GE 5565PIORC Old.lvclass" Type="LVClass" URL="../../Source/GE 5565PIORC/GE 5565PIORC Old.lvclass"/>
+			<Item Name="GE 5565PIORC.lvclass" Type="LVClass" URL="../../Source/GE 5565PIORC.lvclass"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="DMA" Type="Folder">
