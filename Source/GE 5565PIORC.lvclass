@@ -792,9 +792,10 @@
 			<Item Name="RFM Control and Status" Type="Folder">
 				<Item Name="0x00 - BRV" Type="Folder">
 					<Item Name="Board Revision" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Board Revision</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:BRV:Board Revision</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Board Revision</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.BRV.Board Revision.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.BRV.Board Revision.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;"!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"6!"1!/1G^B=G1A5G6W;8.J&lt;WY!!$*!=!!?!!!7&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T!!!12U5A.45W.6"*4V*$)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!Q1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!$U&gt;&amp;)$5V.D6135^31S"J&lt;A"B!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -808,9 +809,10 @@
 				</Item>
 				<Item Name="0x01 - BID" Type="Folder">
 					<Item Name="Board ID" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Board ID</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:BID:Board ID</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Board ID</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.BID.Board ID.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.BID.Board ID.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%\!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!^!"1!)1G^B=G1A351!!$*!=!!?!!!7&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T!!!12U5A.45W.6"*4V*$)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!Q1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!$U&gt;&amp;)$5V.D6135^31S"J&lt;A"B!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -824,9 +826,10 @@
 				</Item>
 				<Item Name="0x1C - NTN" Type="Folder">
 					<Item Name="Network Target Node" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Network Target Node</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:NTN:Network Target Node</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Network Target Node</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.NTN.Network Target Node.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.NTN.Network Target Node.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;&amp;!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"F!"1!44G6U&gt;W^S;S"598*H:81A4G^E:1!S1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!%%&gt;&amp;)$5V.D6135^31S"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!-%"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!!^(23!V.49V5%F05E-A;7Y!91$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A$!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -849,9 +852,10 @@
 				</Item>
 				<Item Name="0x1D - NIC" Type="Folder">
 					<Item Name="Network Interrupt Command" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Network Interrupt Command</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:NIC:Network Interrupt Command</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Network Interrupt Command</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.NIC.Network Interrupt Command.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.NIC.Network Interrupt Command.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;,!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"^!"1!:4G6U&gt;W^S;S"*&lt;H2F=H*V=(1A1W^N&lt;7&amp;O:!!S1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!%%&gt;&amp;)$5V.D6135^31S"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!-%"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!!^(23!V.49V5%F05E-A;7Y!91$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A$!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -874,9 +878,10 @@
 				</Item>
 				<Item Name="0x02 - BRB" Type="Folder">
 					<Item Name="Board Revision Build" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Board Revision Build</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:BRB:Board Revision Build</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Board Revision Build</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.BRB.Board Revision Build.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.BRB.Board Revision Build.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;(!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"N!"A!51G^B=G1A5G6W;8.J&lt;WYA1H6J&lt;'1!!$*!=!!?!!!7&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T!!!12U5A.45W.6"*4V*$)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!Q1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!$U&gt;&amp;)$5V.D6135^31S"J&lt;A"B!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -890,9 +895,10 @@
 				</Item>
 				<Item Name="0x2C - SID2" Type="Folder">
 					<Item Name="Interrupt 2 Sender ID" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Interrupt 2 Sender ID</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:SID2:Interrupt 2 Sender ID</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Interrupt 2 Sender ID</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.SID2.Interrupt 2 Sender ID.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.SID2.Interrupt 2 Sender ID.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;(!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"N!"1!637ZU:8*S&gt;8"U)$)A5W6O:'6S)%F%!$*!=!!?!!!7&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T!!!12U5A.45W.6"*4V*$)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!Q1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!$U&gt;&amp;)$5V.D6135^31S"J&lt;A"B!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -906,9 +912,10 @@
 				</Item>
 				<Item Name="0x3C - SID4" Type="Folder">
 					<Item Name="Interrupt 4 Sender ID" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Interrupt 4 Sender ID</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:SID4:Interrupt 4 Sender ID</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Interrupt 4 Sender ID</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.SID4.Interrupt 4 Sender ID.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.SID4.Interrupt 4 Sender ID.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;(!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"N!"1!637ZU:8*S&gt;8"U)$1A5W6O:'6S)%F%!$*!=!!?!!!7&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T!!!12U5A.45W.6"*4V*$)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!Q1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!$U&gt;&amp;)$5V.D6135^31S"J&lt;A"B!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -922,9 +929,10 @@
 				</Item>
 				<Item Name="0x04 - NID" Type="Folder">
 					<Item Name="Node ID" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Node ID</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:NID:Node ID</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Node ID</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.NID.Node ID.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.NID.Node ID.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%Z!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!V!"1!(4G^E:3"*2!!S1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!%%&gt;&amp;)$5V.D6135^31S"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!-%"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!!^(23!V.49V5%F05E-A;7Y!91$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A$!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -938,9 +946,10 @@
 				</Item>
 				<Item Name="0x08 - LCSR1" Type="Folder">
 					<Item Name="Bad Data" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Bad Data</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LCSR1:Bad Data</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Bad Data</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LCSR1.Bad Data.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LCSR1.Bad Data.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%[!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!Z!)1B#971A2'&amp;U91!!-E"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!""(23!V.49V5%F05E-A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$"!=!!?!!!7&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T!!!02U5A.45W.6"*4V*$)'FO!'%!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -952,9 +961,10 @@
 						</Item>
 					</Item>
 					<Item Name="Config 0" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Config 0</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LCSR1:Config 0</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Config 0</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LCSR1.Config 0.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LCSR1.Config 0.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%[!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!Z!)1B$&lt;WZG;7=A-!!!-E"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!""(23!V.49V5%F05E-A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$"!=!!?!!!7&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T!!!02U5A.45W.6"*4V*$)'FO!'%!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -966,9 +976,10 @@
 						</Item>
 					</Item>
 					<Item Name="Config 1" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Config 1</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LCSR1:Config 1</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Config 1</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LCSR1.Config 1.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LCSR1.Config 1.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%[!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!Z!)1B$&lt;WZG;7=A-1!!-E"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!""(23!V.49V5%F05E-A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$"!=!!?!!!7&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T!!!02U5A.45W.6"*4V*$)'FO!'%!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -980,9 +991,10 @@
 						</Item>
 					</Item>
 					<Item Name="Dark-on-Dark Enable" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Dark-on-Dark Enable</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LCSR1:Dark-on-Dark Enable</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Dark-on-Dark Enable</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LCSR1.Dark-on-Dark Enable.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LCSR1.Dark-on-Dark Enable.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;%!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"B!)2.%98*L,7^O,52B=GMA27ZB9GRF!$*!=!!?!!!7&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T!!!12U5A.45W.6"*4V*$)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!Q1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!$U&gt;&amp;)$5V.D6135^31S"J&lt;A"B!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1003,9 +1015,10 @@
 						</Item>
 					</Item>
 					<Item Name="Delay TX from PCI Write" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Delay TX from PCI Write</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LCSR1:Delay TX from PCI Write</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Delay TX from PCI Write</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LCSR1.Delay TX from PCI Write.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LCSR1.Delay TX from PCI Write.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;)!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"R!)2&gt;%:7RB?3"57#"G=G^N)&amp;"$33"8=GFU:1!S1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!%%&gt;&amp;)$5V.D6135^31S"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!-%"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!!^(23!V.49V5%F05E-A;7Y!91$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A$!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1017,9 +1030,10 @@
 						</Item>
 					</Item>
 					<Item Name="Latched RX FIFO Almost Full" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Latched RX FIFO Almost Full</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LCSR1:Latched RX FIFO Almost Full</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Latched RX FIFO Almost Full</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LCSR1.Latched RX FIFO Almost Full.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LCSR1.Latched RX FIFO Almost Full.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;-!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#"!)2N-982D;'6E)&amp;*9)%:*2E]A17RN&lt;X.U)%:V&lt;'Q!-E"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!""(23!V.49V5%F05E-A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$"!=!!?!!!7&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T!!!02U5A.45W.6"*4V*$)'FO!'%!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1031,9 +1045,10 @@
 						</Item>
 					</Item>
 					<Item Name="Latched RX FIFO Full" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Latched RX FIFO Full</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LCSR1:Latched RX FIFO Full</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Latched RX FIFO Full</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LCSR1.Latched RX FIFO Full.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LCSR1.Latched RX FIFO Full.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;'!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"J!)22-982D;'6E)&amp;*9)%:*2E]A2H6M&lt;!!!-E"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!""(23!V.49V5%F05E-A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$"!=!!?!!!7&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T!!!02U5A.45W.6"*4V*$)'FO!'%!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1045,9 +1060,10 @@
 						</Item>
 					</Item>
 					<Item Name="Latched Sync Loss" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Latched Sync Loss</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LCSR1:Latched Sync Loss</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Latched Sync Loss</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LCSR1.Latched Sync Loss.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LCSR1.Latched Sync Loss.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;#!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!":!)2&amp;-982D;'6E)&amp;.Z&lt;G-A4'^T=Q!S1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!%%&gt;&amp;)$5V.D6135^31S"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!-%"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!!^(23!V.49V5%F05E-A;7Y!91$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A$!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1068,9 +1084,10 @@
 						</Item>
 					</Item>
 					<Item Name="Local Memory Parity Enable" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Local Memory Parity Enable</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LCSR1:Local Memory Parity Enable</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Local Memory Parity Enable</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LCSR1.Local Memory Parity Enable.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LCSR1.Local Memory Parity Enable.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;-!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#"!)2J-&lt;W.B&lt;#".:7VP=HEA5'&amp;S;82Z)%6O97*M:1!!-E"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!""(23!V.49V5%F05E-A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$"!=!!?!!!7&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T!!!02U5A.45W.6"*4V*$)'FO!'%!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1082,9 +1099,10 @@
 						</Item>
 					</Item>
 					<Item Name="Loopback Enable" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Loopback Enable</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LCSR1:Loopback Enable</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Loopback Enable</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LCSR1.Loopback Enable.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LCSR1.Loopback Enable.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;!!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"2!)1^-&lt;W^Q9G&amp;D;S"&amp;&lt;G&amp;C&lt;'5!-E"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!""(23!V.49V5%F05E-A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$"!=!!?!!!7&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T!!!02U5A.45W.6"*4V*$)'FO!'%!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1105,9 +1123,10 @@
 						</Item>
 					</Item>
 					<Item Name="Offset 0" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Offset 0</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LCSR1:Offset 0</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Offset 0</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LCSR1.Offset 0.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LCSR1.Offset 0.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%[!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!Z!)1B0:G:T:81A-!!!-E"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!""(23!V.49V5%F05E-A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$"!=!!?!!!7&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T!!!02U5A.45W.6"*4V*$)'FO!'%!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1119,9 +1138,10 @@
 						</Item>
 					</Item>
 					<Item Name="Offset 1" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Offset 1</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LCSR1:Offset 1</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Offset 1</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LCSR1.Offset 1.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LCSR1.Offset 1.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%[!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!Z!)1B0:G:T:81A-1!!-E"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!""(23!V.49V5%F05E-A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$"!=!!?!!!7&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T!!!02U5A.45W.6"*4V*$)'FO!'%!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1133,9 +1153,10 @@
 						</Item>
 					</Item>
 					<Item Name="Own Data" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Own Data</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LCSR1:Own Data</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Own Data</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LCSR1.Own Data.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LCSR1.Own Data.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%[!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!Z!)1B0&gt;WYA2'&amp;U91!!-E"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!""(23!V.49V5%F05E-A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$"!=!!?!!!7&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T!!!02U5A.45W.6"*4V*$)'FO!'%!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1156,9 +1177,10 @@
 						</Item>
 					</Item>
 					<Item Name="Redundant Mode Enabled" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Redundant Mode Enabled</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LCSR1:Redundant Mode Enabled</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Redundant Mode Enabled</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LCSR1.Redundant Mode Enabled.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LCSR1.Redundant Mode Enabled.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;)!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"R!)2:3:72V&lt;G2B&lt;H1A47^E:3"&amp;&lt;G&amp;C&lt;'6E!!!S1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!%%&gt;&amp;)$5V.D6135^31S"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!-%"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!!^(23!V.49V5%F05E-A;7Y!91$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A$!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1170,9 +1192,10 @@
 						</Item>
 					</Item>
 					<Item Name="Rogue Master 0 Enabled" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Rogue Master 0 Enabled</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LCSR1:Rogue Master 0 Enabled</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Rogue Master 0 Enabled</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LCSR1.Rogue Master 0 Enabled.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LCSR1.Rogue Master 0 Enabled.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;)!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"R!)2:3&lt;W&gt;V:3".98.U:8)A-#"&amp;&lt;G&amp;C&lt;'6E!!!S1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!%%&gt;&amp;)$5V.D6135^31S"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!-%"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!!^(23!V.49V5%F05E-A;7Y!91$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A$!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1184,9 +1207,10 @@
 						</Item>
 					</Item>
 					<Item Name="Rogue Master 1 Enabled" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Rogue Master 1 Enabled</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LCSR1:Rogue Master 1 Enabled</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Rogue Master 1 Enabled</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LCSR1.Rogue Master 1 Enabled.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LCSR1.Rogue Master 1 Enabled.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;)!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"R!)2:3&lt;W&gt;V:3".98.U:8)A-3"&amp;&lt;G&amp;C&lt;'6E!!!S1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!%%&gt;&amp;)$5V.D6135^31S"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!-%"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!!^(23!V.49V5%F05E-A;7Y!91$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A$!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1198,9 +1222,10 @@
 						</Item>
 					</Item>
 					<Item Name="RX Signal Detect" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">RX Signal Detect</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LCSR1:RX Signal Detect</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">RX Signal Detect</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LCSR1.RX Signal Detect.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LCSR1.RX Signal Detect.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;#!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!":!)2"37#"4;7&gt;O97QA2'6U:7.U!!!S1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!%%&gt;&amp;)$5V.D6135^31S"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!-%"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!!^(23!V.49V5%F05E-A;7Y!91$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A$!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1212,9 +1237,10 @@
 						</Item>
 					</Item>
 					<Item Name="Status LED" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Status LED</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LCSR1:Status LED</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Status LED</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LCSR1.Status LED.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LCSR1.Status LED.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%]!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!""!)1J4&gt;'&amp;U&gt;8-A4%6%!!!S1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!%%&gt;&amp;)$5V.D6135^31S"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!-%"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!!^(23!V.49V5%F05E-A;7Y!91$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A$!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1235,9 +1261,10 @@
 						</Item>
 					</Item>
 					<Item Name="Transmitter Disable" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Transmitter Disable</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LCSR1:Transmitter Disable</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Transmitter Disable</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LCSR1.Transmitter Disable.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LCSR1.Transmitter Disable.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;%!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"B!)2.5=G&amp;O=WVJ&gt;(2F=C"%;8.B9GRF!$*!=!!?!!!7&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T!!!12U5A.45W.6"*4V*$)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!Q1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!$U&gt;&amp;)$5V.D6135^31S"J&lt;A"B!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1258,9 +1285,10 @@
 						</Item>
 					</Item>
 					<Item Name="TX FIFO Almost Full" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">TX FIFO Almost Full</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LCSR1:TX FIFO Almost Full</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">TX FIFO Almost Full</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LCSR1.TX FIFO Almost Full.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LCSR1.TX FIFO Almost Full.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;%!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"B!)2.57#"'35:0)%&amp;M&lt;7^T&gt;#"'&gt;7RM!$*!=!!?!!!7&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T!!!12U5A.45W.6"*4V*$)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!Q1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!$U&gt;&amp;)$5V.D6135^31S"J&lt;A"B!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1272,9 +1300,10 @@
 						</Item>
 					</Item>
 					<Item Name="TX FIFO Empty" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">TX FIFO Empty</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LCSR1:TX FIFO Empty</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">TX FIFO Empty</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LCSR1.TX FIFO Empty.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LCSR1.TX FIFO Empty.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%_!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"*!)1V57#"'35:0)%6N=(2Z!$*!=!!?!!!7&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T!!!12U5A.45W.6"*4V*$)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!Q1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!$U&gt;&amp;)$5V.D6135^31S"J&lt;A"B!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1286,9 +1315,10 @@
 						</Item>
 					</Item>
 					<Item Name="Window 0" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Window 0</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LCSR1:Window 0</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Window 0</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LCSR1.Window 0.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LCSR1.Window 0.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%[!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!Z!)1B8;7ZE&lt;X=A-!!!-E"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!""(23!V.49V5%F05E-A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$"!=!!?!!!7&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T!!!02U5A.45W.6"*4V*$)'FO!'%!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1300,9 +1330,10 @@
 						</Item>
 					</Item>
 					<Item Name="Window 1" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Window 1</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LCSR1:Window 1</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Window 1</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LCSR1.Window 1.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LCSR1.Window 1.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%[!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!Z!)1B8;7ZE&lt;X=A-1!!-E"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!""(23!V.49V5%F05E-A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$"!=!!?!!!7&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T!!!02U5A.45W.6"*4V*$)'FO!'%!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1316,9 +1347,10 @@
 				</Item>
 				<Item Name="0x10 - LISR" Type="Folder">
 					<Item Name="Auto Clear Flag" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Auto Clear Flag</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LISR:Auto Clear Flag</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Auto Clear Flag</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LISR.Auto Clear Flag.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LISR.Auto Clear Flag.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;!!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"2!)1^"&gt;82P)%.M:7&amp;S)%:M97=!-E"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!""(23!V.49V5%F05E-A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$"!=!!?!!!7&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T!!!02U5A.45W.6"*4V*$)'FO!'%!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1330,9 +1362,10 @@
 						</Item>
 					</Item>
 					<Item Name="Bad Data" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">New Folder</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LISR:Bad Data</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Bad Data</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LISR.Bad Data.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LISR.Bad Data.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%[!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!Z!)1B#971A2'&amp;U91!!-E"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!""(23!V.49V5%F05E-A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$"!=!!?!!!7&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T!!!02U5A.45W.6"*4V*$)'FO!'%!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1353,9 +1386,10 @@
 						</Item>
 					</Item>
 					<Item Name="Global Interrupt Enable" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Global Interrupt Enable</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LISR:Global Interrupt Enable</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Global Interrupt Enable</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LISR.Global Interrupt Enable.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LISR.Global Interrupt Enable.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;)!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"R!)2&gt;(&lt;'^C97QA37ZU:8*S&gt;8"U)%6O97*M:1!S1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!%%&gt;&amp;)$5V.D6135^31S"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!-%"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!!^(23!V.49V5%F05E-A;7Y!91$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A$!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1376,9 +1410,10 @@
 						</Item>
 					</Item>
 					<Item Name="Latched Sync Loss" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">New Folder</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LISR:Latched Sync Loss</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Latched Sync Loss</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LISR.Latched Sync Loss.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LISR.Latched Sync Loss.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;#!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!":!)2&amp;-982D;'6E)&amp;.Z&lt;G-A4'^T=Q!S1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!%%&gt;&amp;)$5V.D6135^31S"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!-%"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!!^(23!V.49V5%F05E-A;7Y!91$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A$!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1399,9 +1434,10 @@
 						</Item>
 					</Item>
 					<Item Name="Local Memory Parity Error" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Local Memory Parity Error</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LISR:Local Memory Parity Error</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Local Memory Parity Error</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LISR.Local Memory Parity Error.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LISR.Local Memory Parity Error.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;+!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"Z!)2F-&lt;W.B&lt;#".:7VP=HEA5'&amp;S;82Z)%6S=G^S!$*!=!!?!!!7&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T!!!12U5A.45W.6"*4V*$)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!Q1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!$U&gt;&amp;)$5V.D6135^31S"J&lt;A"B!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1422,9 +1458,10 @@
 						</Item>
 					</Item>
 					<Item Name="Memory Write Inhibited" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Memory Write Inhibited</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LISR:Memory Write Inhibited</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Memory Write Inhibited</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LISR.Memory Write Inhibited.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LISR.Memory Write Inhibited.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;)!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"R!)2:.:7VP=HEA6X*J&gt;'5A37ZI;7*J&gt;'6E!!!S1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!%%&gt;&amp;)$5V.D6135^31S"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!-%"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!!^(23!V.49V5%F05E-A;7Y!91$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A$!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1445,9 +1482,10 @@
 						</Item>
 					</Item>
 					<Item Name="Pending Network Interrupt 1" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Pending Network Interrupt 1</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LISR:Pending Network Interrupt 1</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Pending Network Interrupt 1</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LISR.Pending Network Interrupt 1.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LISR.Pending Network Interrupt 1.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;-!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#"!)2N1:7ZE;7ZH)%ZF&gt;(&gt;P=GMA37ZU:8*S&gt;8"U)$%!-E"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!""(23!V.49V5%F05E-A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$"!=!!?!!!7&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T!!!02U5A.45W.6"*4V*$)'FO!'%!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1459,9 +1497,10 @@
 						</Item>
 					</Item>
 					<Item Name="Pending Network Interrupt 2" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Pending Network Interrupt 2</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LISR:Pending Network Interrupt 2</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Pending Network Interrupt 2</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LISR.Pending Network Interrupt 2.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LISR.Pending Network Interrupt 2.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;-!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#"!)2N1:7ZE;7ZH)%ZF&gt;(&gt;P=GMA37ZU:8*S&gt;8"U)$)!-E"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!""(23!V.49V5%F05E-A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$"!=!!?!!!7&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T!!!02U5A.45W.6"*4V*$)'FO!'%!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1473,9 +1512,10 @@
 						</Item>
 					</Item>
 					<Item Name="Pending Network Interrupt 3" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Pending Network Interrupt 3</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LISR:Pending Network Interrupt 3</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Pending Network Interrupt 3</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LISR.Pending Network Interrupt 3.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LISR.Pending Network Interrupt 3.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;-!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#"!)2N1:7ZE;7ZH)%ZF&gt;(&gt;P=GMA37ZU:8*S&gt;8"U)$-!-E"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!""(23!V.49V5%F05E-A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$"!=!!?!!!7&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T!!!02U5A.45W.6"*4V*$)'FO!'%!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1487,9 +1527,10 @@
 						</Item>
 					</Item>
 					<Item Name="Pending Network Interrupt 4" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Pending Network Interrupt 4</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LISR:Pending Network Interrupt 4</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Pending Network Interrupt 4</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LISR.Pending Network Interrupt 4.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LISR.Pending Network Interrupt 4.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;-!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#"!)2N1:7ZE;7ZH)%ZF&gt;(&gt;P=GMA37ZU:8*S&gt;8"U)$1!-E"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!""(23!V.49V5%F05E-A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$"!=!!?!!!7&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T!!!02U5A.45W.6"*4V*$)'FO!'%!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1501,9 +1542,10 @@
 						</Item>
 					</Item>
 					<Item Name="Reset Node Request" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Reset Node Request</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LISR:Reset Node Request</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Reset Node Request</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LISR.Reset Node Request.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LISR.Reset Node Request.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;%!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"B!)2*3:8.F&gt;#"/&lt;W2F)&amp;*F=86F=X1!!$*!=!!?!!!7&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T!!!12U5A.45W.6"*4V*$)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!Q1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!$U&gt;&amp;)$5V.D6135^31S"J&lt;A"B!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1515,9 +1557,10 @@
 						</Item>
 					</Item>
 					<Item Name="Rogue Packet Fault" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Rogue Packet Fault</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LISR:Rogue Packet Fault</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Rogue Packet Fault</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LISR.Rogue Packet Fault.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LISR.Rogue Packet Fault.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;%!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"B!)2*3&lt;W&gt;V:3"197.L:81A2G&amp;V&lt;(1!!$*!=!!?!!!7&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T!!!12U5A.45W.6"*4V*$)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!Q1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!$U&gt;&amp;)$5V.D6135^31S"J&lt;A"B!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1538,9 +1581,10 @@
 						</Item>
 					</Item>
 					<Item Name="RX FIFO Almost Full" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">RX FIFO Almost Full</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LISR:RX FIFO Almost Full</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">RX FIFO Almost Full</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LISR.RX FIFO Almost Full.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LISR.RX FIFO Almost Full.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;%!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"B!)2.37#"'35:0)%&amp;M&lt;7^T&gt;#"'&gt;7RM!$*!=!!?!!!7&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T!!!12U5A.45W.6"*4V*$)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!Q1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!$U&gt;&amp;)$5V.D6135^31S"J&lt;A"B!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1561,9 +1605,10 @@
 						</Item>
 					</Item>
 					<Item Name="RX FIFO Full" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">RX FIFO Full</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LISR:RX FIFO Full</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">RX FIFO Full</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LISR.RX FIFO Full.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LISR.RX FIFO Full.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%_!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"*!)1R37#"'35:0)%:V&lt;'Q!!$*!=!!?!!!7&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T!!!12U5A.45W.6"*4V*$)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!Q1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!$U&gt;&amp;)$5V.D6135^31S"J&lt;A"B!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1584,9 +1629,10 @@
 						</Item>
 					</Item>
 					<Item Name="TX FIFO Full" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">TX FIFO Full</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LISR:TX FIFO Full</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">TX FIFO Full</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LISR.TX FIFO Full.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LISR.TX FIFO Full.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%_!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"*!)1R57#"'35:0)%:V&lt;'Q!!$*!=!!?!!!7&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T!!!12U5A.45W.6"*4V*$)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!Q1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!$U&gt;&amp;)$5V.D6135^31S"J&lt;A"B!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1609,9 +1655,10 @@
 				</Item>
 				<Item Name="0x14 - LIER" Type="Folder">
 					<Item Name="Auto Clear Enable" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Auto Clear Enable</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LIER:Auto Clear Enable</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Auto Clear Enable</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LIER.Auto Clear Enable.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LIER.Auto Clear Enable.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;#!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!":!)2&amp;"&gt;82P)%.M:7&amp;S)%6O97*M:1!S1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!%%&gt;&amp;)$5V.D6135^31S"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!-%"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!!^(23!V.49V5%F05E-A;7Y!91$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A$!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1632,9 +1679,10 @@
 						</Item>
 					</Item>
 					<Item Name="Bad Data Interrupt Enable" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Bad Data Interrupt Enable</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LIER:Bad Data Interrupt Enable</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Bad Data Interrupt Enable</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LIER.Bad Data Interrupt Enable.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LIER.Bad Data Interrupt Enable.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;+!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"Z!)2F#971A2'&amp;U93"*&lt;H2F=H*V=(1A27ZB9GRF!$*!=!!?!!!7&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T!!!12U5A.45W.6"*4V*$)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!Q1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!$U&gt;&amp;)$5V.D6135^31S"J&lt;A"B!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1655,9 +1703,10 @@
 						</Item>
 					</Item>
 					<Item Name="Latched Sync Loss Interrupt Enable" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Latched Sync Loss Interrupt Enable</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LIER:Latched Sync Loss Interrupt Enable</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Latched Sync Loss Interrupt Enable</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LIER.Latched Sync Loss Interrupt Enable.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LIER.Latched Sync Loss Interrupt Enable.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;5!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#B!)3*-982D;'6E)&amp;.Z&lt;G-A4'^T=S"*&lt;H2F=H*V=(1A27ZB9GRF!!!S1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!%%&gt;&amp;)$5V.D6135^31S"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!-%"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!!^(23!V.49V5%F05E-A;7Y!91$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A$!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1678,9 +1727,10 @@
 						</Item>
 					</Item>
 					<Item Name="Local Memory Parity Error Interrupt Enable" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Local Memory Parity Error Interrupt Enable</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LIER:Local Memory Parity Error Interrupt Enable</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Local Memory Parity Error Interrupt Enable</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LIER.Local Memory Parity Error Interrupt Enable.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LIER.Local Memory Parity Error Interrupt Enable.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;=!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$"!)3J-&lt;W.B&lt;#".:7VP=HEA5'&amp;S;82Z)%6S=G^S)%FO&gt;'6S=H6Q&gt;#"&amp;&lt;G&amp;C&lt;'5!!$*!=!!?!!!7&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T!!!12U5A.45W.6"*4V*$)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!Q1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!$U&gt;&amp;)$5V.D6135^31S"J&lt;A"B!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1701,9 +1751,10 @@
 						</Item>
 					</Item>
 					<Item Name="Memory Write Inhibit Interrupt Enable" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Memory Write Inhibit Interrupt Enable</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LIER:Memory Write Inhibit Interrupt Enable</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Memory Write Inhibit Interrupt Enable</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LIER.Memory Write Inhibit Interrupt Enable.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LIER.Memory Write Inhibit Interrupt Enable.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;7!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#J!)36.:7VP=HEA6X*J&gt;'5A37ZI;7*J&gt;#"*&lt;H2F=H*V=(1A27ZB9GRF!$*!=!!?!!!7&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T!!!12U5A.45W.6"*4V*$)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!Q1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!$U&gt;&amp;)$5V.D6135^31S"J&lt;A"B!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1724,9 +1775,10 @@
 						</Item>
 					</Item>
 					<Item Name="Pending Network Interrupt 1 Enable" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Pending Network Interrupt 1 Enable</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LIER:Pending Network Interrupt 1 Enable</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Pending Network Interrupt 1 Enable</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LIER.Pending Network Interrupt 1 Enable.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LIER.Pending Network Interrupt 1 Enable.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;5!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#B!)3*1:7ZE;7ZH)%ZF&gt;(&gt;P=GMA37ZU:8*S&gt;8"U)$%A27ZB9GRF!!!S1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!%%&gt;&amp;)$5V.D6135^31S"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!-%"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!!^(23!V.49V5%F05E-A;7Y!91$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A$!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1747,9 +1799,10 @@
 						</Item>
 					</Item>
 					<Item Name="Pending Network Interrupt 2 Enable" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Pending Network Interrupt 2 Enable</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LIER:Pending Network Interrupt 2 Enable</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Pending Network Interrupt 2 Enable</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LIER.Pending Network Interrupt 2 Enable.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LIER.Pending Network Interrupt 2 Enable.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;5!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#B!)3*1:7ZE;7ZH)%ZF&gt;(&gt;P=GMA37ZU:8*S&gt;8"U)$)A27ZB9GRF!!!S1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!%%&gt;&amp;)$5V.D6135^31S"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!-%"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!!^(23!V.49V5%F05E-A;7Y!91$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A$!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1770,9 +1823,10 @@
 						</Item>
 					</Item>
 					<Item Name="Pending Network Interrupt 3 Enable" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Pending Network Interrupt 3 Enable</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LIER:Pending Network Interrupt 3 Enable</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Pending Network Interrupt 3 Enable</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LIER.Pending Network Interrupt 3 Enable.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LIER.Pending Network Interrupt 3 Enable.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;5!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#B!)3*1:7ZE;7ZH)%ZF&gt;(&gt;P=GMA37ZU:8*S&gt;8"U)$-A27ZB9GRF!!!S1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!%%&gt;&amp;)$5V.D6135^31S"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!-%"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!!^(23!V.49V5%F05E-A;7Y!91$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A$!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1793,9 +1847,10 @@
 						</Item>
 					</Item>
 					<Item Name="Pending Network Interrupt 4 Enable" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Pending Network Interrupt 4 Enable</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LIER:Pending Network Interrupt 4 Enable</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Pending Network Interrupt 4 Enable</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LIER.Pending Network Interrupt 4 Enable.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LIER.Pending Network Interrupt 4 Enable.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;5!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#B!)3*1:7ZE;7ZH)%ZF&gt;(&gt;P=GMA37ZU:8*S&gt;8"U)$1A27ZB9GRF!!!S1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!%%&gt;&amp;)$5V.D6135^31S"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!-%"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!!^(23!V.49V5%F05E-A;7Y!91$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A$!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1816,9 +1871,10 @@
 						</Item>
 					</Item>
 					<Item Name="Reset Node Request Interrupt Enable" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Reset Node Request Interrupt Enable</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LIER:Reset Node Request Interrupt Enable</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Reset Node Request Interrupt Enable</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LIER.Reset Node Request Interrupt Enable.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LIER.Reset Node Request Interrupt Enable.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;5!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#B!)3.3:8.F&gt;#"/&lt;W2F)&amp;*F=86F=X1A37ZU:8*S&gt;8"U)%6O97*M:1!S1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!%%&gt;&amp;)$5V.D6135^31S"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!-%"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!!^(23!V.49V5%F05E-A;7Y!91$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A$!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1839,9 +1895,10 @@
 						</Item>
 					</Item>
 					<Item Name="Rogue Packet Fault Interrupt Enable" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Rogue Packet Fault Interrupt Enable</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LIER:Rogue Packet Fault Interrupt Enable</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Rogue Packet Fault Interrupt Enable</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LIER.Rogue Packet Fault Interrupt Enable.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LIER.Rogue Packet Fault Interrupt Enable.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;5!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#B!)3.3&lt;W&gt;V:3"197.L:81A2G&amp;V&lt;(1A37ZU:8*S&gt;8"U)%6O97*M:1!S1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!%%&gt;&amp;)$5V.D6135^31S"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!-%"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!!^(23!V.49V5%F05E-A;7Y!91$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A$!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1862,9 +1919,10 @@
 						</Item>
 					</Item>
 					<Item Name="RX FIFO Almost Full Interrupt Enable" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">RX FIFO Almost Full Interrupt Enable</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LIER:RX FIFO Almost Full Interrupt Enable</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">RX FIFO Almost Full Interrupt Enable</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LIER.RX FIFO Almost Full Interrupt Enable.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LIER.RX FIFO Almost Full Interrupt Enable.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;7!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#J!)3237#"'35:0)%&amp;M&lt;7^T&gt;#"'&gt;7RM)%FO&gt;'6S=H6Q&gt;#"&amp;&lt;G&amp;C&lt;'5!!$*!=!!?!!!7&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T!!!12U5A.45W.6"*4V*$)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!Q1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!$U&gt;&amp;)$5V.D6135^31S"J&lt;A"B!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1885,9 +1943,10 @@
 						</Item>
 					</Item>
 					<Item Name="RX FIFO Full Interrupt Enable" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">RX FIFO Full Interrupt Enable</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LIER:RX FIFO Full Interrupt Enable</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">RX FIFO Full Interrupt Enable</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LIER.RX FIFO Full Interrupt Enable.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LIER.RX FIFO Full Interrupt Enable.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;/!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#*!)2V37#"'35:0)%:V&lt;'QA37ZU:8*S&gt;8"U)%6O97*M:1!S1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!%%&gt;&amp;)$5V.D6135^31S"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!-%"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!!^(23!V.49V5%F05E-A;7Y!91$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A$!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1908,9 +1967,10 @@
 						</Item>
 					</Item>
 					<Item Name="TX FIFO Full Interrupt Enable" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">TX FIFO Full Interrupt Enable</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:LIER:TX FIFO Full Interrupt Enable</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">TX FIFO Full Interrupt Enable</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.LIER.TX FIFO Full Interrupt Enable.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.LIER.TX FIFO Full Interrupt Enable.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;/!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#*!)2V57#"'35:0)%:V&lt;'QA37ZU:8*S&gt;8"U)%6O97*M:1!S1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!%%&gt;&amp;)$5V.D6135^31S"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!-%"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!!^(23!V.49V5%F05E-A;7Y!91$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A$!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1933,9 +1993,10 @@
 				</Item>
 				<Item Name="0x18 - NTD" Type="Folder">
 					<Item Name="Network Target Data" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Network Target Data</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:NTD:Network Target Data</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Network Target Data</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.NTD.Network Target Data.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.NTD.Network Target Data.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;&amp;!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"F!"Q!44G6U&gt;W^S;S"598*H:81A2'&amp;U91!S1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!%%&gt;&amp;)$5V.D6135^31S"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!-%"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!!^(23!V.49V5%F05E-A;7Y!91$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A$!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1958,9 +2019,10 @@
 				</Item>
 				<Item Name="0x20 - ISD1" Type="Folder">
 					<Item Name="Interrupt 1 Sender Data" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Interrupt 1 Sender Data</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:ISD1:Interrupt 1 Sender Data</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Interrupt 1 Sender Data</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.ISD1.Interrupt 1 Sender Data.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.ISD1.Interrupt 1 Sender Data.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;*!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"V!"Q!837ZU:8*S&gt;8"U)$%A5W6O:'6S)%2B&gt;'%!-E"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!""(23!V.49V5%F05E-A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$"!=!!?!!!7&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T!!!02U5A.45W.6"*4V*$)'FO!'%!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1974,9 +2036,10 @@
 				</Item>
 				<Item Name="0x24 - SID1" Type="Folder">
 					<Item Name="Interrupt 1 Sender ID" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Interrupt 1 Sender ID</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:SID1:Interrupt 1 Sender ID</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Interrupt 1 Sender ID</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.SID1.Interrupt 1 Sender ID.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.SID1.Interrupt 1 Sender ID.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;(!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"N!"1!637ZU:8*S&gt;8"U)$%A5W6O:'6S)%F%!$*!=!!?!!!7&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T!!!12U5A.45W.6"*4V*$)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!Q1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!$U&gt;&amp;)$5V.D6135^31S"J&lt;A"B!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -1990,9 +2053,10 @@
 				</Item>
 				<Item Name="0x28 - ISD2" Type="Folder">
 					<Item Name="Interrupt 2 Sender Data" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Interrupt 2 Sender Data</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:ISD2:Interrupt 2 Sender Data</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Interrupt 2 Sender Data</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.ISD2.Interrupt 2 Sender Data.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.ISD2.Interrupt 2 Sender Data.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;*!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"V!"Q!837ZU:8*S&gt;8"U)$)A5W6O:'6S)%2B&gt;'%!-E"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!""(23!V.49V5%F05E-A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$"!=!!?!!!7&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T!!!02U5A.45W.6"*4V*$)'FO!'%!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -2006,9 +2070,10 @@
 				</Item>
 				<Item Name="0x30 - ISD3" Type="Folder">
 					<Item Name="Interrupt 3 Sender Data" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Interrupt 3 Sender Data</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:ISD3:Interrupt 3 Sender Data</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Interrupt 3 Sender Data</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.ISD3.Interrupt 3 Sender Data.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.ISD3.Interrupt 3 Sender Data.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;*!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"V!"Q!837ZU:8*S&gt;8"U)$-A5W6O:'6S)%2B&gt;'%!-E"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!""(23!V.49V5%F05E-A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$"!=!!?!!!7&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T!!!02U5A.45W.6"*4V*$)'FO!'%!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -2022,9 +2087,10 @@
 				</Item>
 				<Item Name="0x34 - SID3" Type="Folder">
 					<Item Name="Interrupt 3 Sender ID" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Interrupt 3 Sender ID</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:SID3:Interrupt 3 Sender ID</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Interrupt 3 Sender ID</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.SID3.Interrupt 3 Sender ID.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.SID3.Interrupt 3 Sender ID.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;(!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"N!"1!637ZU:8*S&gt;8"U)$-A5W6O:'6S)%F%!$*!=!!?!!!7&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T!!!12U5A.45W.6"*4V*$)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!Q1(!!(A!!&amp;B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=Q!!$U&gt;&amp;)$5V.D6135^31S"J&lt;A"B!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -2038,9 +2104,10 @@
 				</Item>
 				<Item Name="0x38 - ISD4" Type="Folder">
 					<Item Name="Interrupt 4 Sender Data" Type="Property Definition">
-						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Interrupt 4 Sender Data</Property>
+						<Property Name="NI.ClassItem.Property.LongName" Type="Str">Registers:RFM Control and Status:ISD4:Interrupt 4 Sender Data</Property>
 						<Property Name="NI.ClassItem.Property.ShortName" Type="Str">Interrupt 4 Sender Data</Property>
 						<Property Name="NI.ClassItem.Property.SortKey" Type="Int">-1</Property>
+						<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 						<Item Name="GE 5565PIORC.Registers.ISD4.Interrupt 4 Sender Data.Get.vi" Type="VI" URL="../Properties/Registers/GE 5565PIORC.Registers.ISD4.Interrupt 4 Sender Data.Get.vi">
 							<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;*!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"V!"Q!837ZU:8*S&gt;8"U)$1A5W6O:'6S)%2B&gt;'%!-E"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!""(23!V.49V5%F05E-A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$"!=!!?!!!7&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T!!!02U5A.45W.6"*4V*$)'FO!'%!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
 							<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
