@@ -929,7 +929,7 @@
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Bit Manipulation" Type="Folder">
-				<Item Name="Bit Manipulation.Clear Bits (U8).vi" Type="VI" URL="../Properties/Registers/Bit Manipulation.Clear Bits (U8).vi">
+				<Item Name="GE 5565PIORC.Bit Manipulation.Clear Bits (U8).vi" Type="VI" URL="../Methods/GE 5565PIORC.Bit Manipulation.Clear Bits (U8).vi">
 					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#O!!!!"A!%!!!!&amp;U!&amp;!""Q97.L:71A&gt;G&amp;M&gt;75A&lt;X6U!!!41!-!$7*J&gt;#"D&lt;X6O&gt;#!I-3E!$U!$!!FC;81A;7ZE:8A!&amp;5!&amp;!!^Q97.L:71A&gt;G&amp;M&gt;75A;7Y!6!$Q!!Q!!!!!!!!!!1!!!!!!!!!!!!)!!Q!!!!1#!!"Y!!!!!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!1!!!!!!!!!")!!!!!!1!&amp;!!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 					<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
@@ -938,7 +938,7 @@
 					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 					<Property Name="NI.ClassItem.State" Type="Int">34078720</Property>
 				</Item>
-				<Item Name="Bit Manipulation.Clear Bits (U16).vi" Type="VI" URL="../Properties/Registers/Bit Manipulation.Clear Bits (U16).vi">
+				<Item Name="GE 5565PIORC.Bit Manipulation.Clear Bits (U16).vi" Type="VI" URL="../Methods/GE 5565PIORC.Bit Manipulation.Clear Bits (U16).vi">
 					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#O!!!!"A!%!!!!&amp;U!'!""Q97.L:71A&gt;G&amp;M&gt;75A&lt;X6U!!!41!-!$7*J&gt;#"D&lt;X6O&gt;#!I-3E!$U!$!!FC;81A;7ZE:8A!&amp;5!'!!^Q97.L:71A&gt;G&amp;M&gt;75A;7Y!6!$Q!!Q!!!!!!!!!!1!!!!!!!!!!!!)!!Q!!!!1#!!"Y!!!!!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!1!!!!!!!!!")!!!!!!1!&amp;!!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 					<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
@@ -947,7 +947,7 @@
 					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 					<Property Name="NI.ClassItem.State" Type="Int">268967936</Property>
 				</Item>
-				<Item Name="Bit Manipulation.Clear Bits (U32).vi" Type="VI" URL="../Properties/Registers/Bit Manipulation.Clear Bits (U32).vi">
+				<Item Name="GE 5565PIORC.Bit Manipulation.Clear Bits (U32).vi" Type="VI" URL="../Methods/GE 5565PIORC.Bit Manipulation.Clear Bits (U32).vi">
 					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#O!!!!"A!%!!!!&amp;U!(!""Q97.L:71A&gt;G&amp;M&gt;75A&lt;X6U!!!41!-!$7*J&gt;#"D&lt;X6O&gt;#!I-3E!$U!$!!FC;81A;7ZE:8A!&amp;5!(!!^Q97.L:71A&gt;G&amp;M&gt;75A;7Y!6!$Q!!Q!!!!!!!!!!1!!!!!!!!!!!!)!!Q!!!!1#!!"Y!!!!!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!1!!!!!!!!!")!!!!!!1!&amp;!!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 					<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
@@ -956,7 +956,7 @@
 					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 					<Property Name="NI.ClassItem.State" Type="Int">268967936</Property>
 				</Item>
-				<Item Name="Bit Manipulation.Clear Bits (U64).vi" Type="VI" URL="../Properties/Registers/Bit Manipulation.Clear Bits (U64).vi">
+				<Item Name="GE 5565PIORC.Bit Manipulation.Clear Bits (U64).vi" Type="VI" URL="../Methods/GE 5565PIORC.Bit Manipulation.Clear Bits (U64).vi">
 					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#O!!!!"A!%!!!!&amp;U!)!""Q97.L:71A&gt;G&amp;M&gt;75A&lt;X6U!!!41!-!$7*J&gt;#"D&lt;X6O&gt;#!I-3E!$U!$!!FC;81A;7ZE:8A!&amp;5!)!!^Q97.L:71A&gt;G&amp;M&gt;75A;7Y!6!$Q!!Q!!!!!!!!!!1!!!!!!!!!!!!)!!Q!!!!1#!!"Y!!!!!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!1!!!!!!!!!")!!!!!!1!&amp;!!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 					<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
@@ -965,7 +965,7 @@
 					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 					<Property Name="NI.ClassItem.State" Type="Int">268967936</Property>
 				</Item>
-				<Item Name="Bit Manipulation.Clear Bits.vi" Type="VI" URL="../Properties/Registers/Bit Manipulation.Clear Bits.vi">
+				<Item Name="GE 5565PIORC.Bit Manipulation.Clear Bits.vi" Type="VI" URL="../Methods/GE 5565PIORC.Bit Manipulation.Clear Bits.vi">
 					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!1!!!!!1!)!0,7#&amp;V5!!%!!!!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 					<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -974,7 +974,7 @@
 					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 					<Property Name="NI.ClassItem.State" Type="Int">1074278912</Property>
 				</Item>
-				<Item Name="Bit Manipulation.Create Mask (U8).vi" Type="VI" URL="../Properties/Registers/Bit Manipulation.Create Mask (U8).vi">
+				<Item Name="GE 5565PIORC.Bit Manipulation.Create Mask (U8).vi" Type="VI" URL="../Methods/GE 5565PIORC.Bit Manipulation.Create Mask (U8).vi">
 					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#2!!!!"1!%!!!!#U!&amp;!!2N98.L!!!41!-!$7*J&gt;#"D&lt;X6O&gt;#!I-3E!%U!$!!VC;81A;7ZE:8AA+$!J!&amp;1!]!!-!!!!!!!!!!%!!!!!!!!!!!!!!!!!!A!$!A!!?!!!!!!!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!)!!!!!!%!"!!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 					<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
@@ -983,7 +983,7 @@
 					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 					<Property Name="NI.ClassItem.State" Type="Int">268967936</Property>
 				</Item>
-				<Item Name="Bit Manipulation.Create Mask (U16).vi" Type="VI" URL="../Properties/Registers/Bit Manipulation.Create Mask (U16).vi">
+				<Item Name="GE 5565PIORC.Bit Manipulation.Create Mask (U16).vi" Type="VI" URL="../Methods/GE 5565PIORC.Bit Manipulation.Create Mask (U16).vi">
 					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#2!!!!"1!%!!!!#U!'!!2N98.L!!!41!-!$7*J&gt;#"D&lt;X6O&gt;#!I-3E!%U!$!!VC;81A;7ZE:8AA+$!J!&amp;1!]!!-!!!!!!!!!!%!!!!!!!!!!!!!!!!!!A!$!A!!?!!!!!!!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!)!!!!!!%!"!!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 					<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
@@ -992,7 +992,7 @@
 					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 					<Property Name="NI.ClassItem.State" Type="Int">268967936</Property>
 				</Item>
-				<Item Name="Bit Manipulation.Create Mask (U32).vi" Type="VI" URL="../Properties/Registers/Bit Manipulation.Create Mask (U32).vi">
+				<Item Name="GE 5565PIORC.Bit Manipulation.Create Mask (U32).vi" Type="VI" URL="../Methods/GE 5565PIORC.Bit Manipulation.Create Mask (U32).vi">
 					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#2!!!!"1!%!!!!#U!(!!2N98.L!!!41!-!$7*J&gt;#"D&lt;X6O&gt;#!I-3E!%U!$!!VC;81A;7ZE:8AA+$!J!&amp;1!]!!-!!!!!!!!!!%!!!!!!!!!!!!!!!!!!A!$!A!!?!!!!!!!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!)!!!!!!%!"!!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 					<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
@@ -1001,7 +1001,7 @@
 					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 					<Property Name="NI.ClassItem.State" Type="Int">268967936</Property>
 				</Item>
-				<Item Name="Bit Manipulation.Create Mask (U64).vi" Type="VI" URL="../Properties/Registers/Bit Manipulation.Create Mask (U64).vi">
+				<Item Name="GE 5565PIORC.Bit Manipulation.Create Mask (U64).vi" Type="VI" URL="../Methods/GE 5565PIORC.Bit Manipulation.Create Mask (U64).vi">
 					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#2!!!!"1!%!!!!#U!)!!2N98.L!!!41!-!$7*J&gt;#"D&lt;X6O&gt;#!I-3E!%U!$!!VC;81A;7ZE:8AA+$!J!&amp;1!]!!-!!!!!!!!!!%!!!!!!!!!!!!!!!!!!A!$!A!!?!!!!!!!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!)!!!!!!%!"!!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 					<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
@@ -1010,7 +1010,7 @@
 					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 					<Property Name="NI.ClassItem.State" Type="Int">268967936</Property>
 				</Item>
-				<Item Name="Bit Manipulation.Create Mask.vi" Type="VI" URL="../Properties/Registers/Bit Manipulation.Create Mask.vi">
+				<Item Name="GE 5565PIORC.Bit Manipulation.Create Mask.vi" Type="VI" URL="../Methods/GE 5565PIORC.Bit Manipulation.Create Mask.vi">
 					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!1!!!!!1!)!0,7#&amp;V5!!%!!!!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 					<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -1019,7 +1019,7 @@
 					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 					<Property Name="NI.ClassItem.State" Type="Int">1074278912</Property>
 				</Item>
-				<Item Name="Bit Manipulation.Get Bit (U8).vi" Type="VI" URL="../Properties/Registers/Bit Manipulation.Get Bit (U8).vi">
+				<Item Name="GE 5565PIORC.Bit Manipulation.Get Bit (U8).vi" Type="VI" URL="../Methods/GE 5565PIORC.Bit Manipulation.Get Bit (U8).vi">
 					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#D!!!!"A!%!!!!#%!B!W*J&gt;!!81!5!%("B9WNF:#"W97RV:3"P&gt;81!!!^!!Q!*9GFU)'FO:'6Y!"6!"1!0='&amp;D;W6E)(:B&lt;(6F)'FO!&amp;1!]!!-!!!!!!!"!!)!!!!!!!!!!!!!!!-!!!!%!A!!?!!!!!!!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%!!!!!!!!!!1!!!!!!%!"1!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 					<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
@@ -1028,7 +1028,7 @@
 					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 					<Property Name="NI.ClassItem.State" Type="Int">8400896</Property>
 				</Item>
-				<Item Name="Bit Manipulation.Get Bit (U16).vi" Type="VI" URL="../Properties/Registers/Bit Manipulation.Get Bit (U16).vi">
+				<Item Name="GE 5565PIORC.Bit Manipulation.Get Bit (U16).vi" Type="VI" URL="../Methods/GE 5565PIORC.Bit Manipulation.Get Bit (U16).vi">
 					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#D!!!!"A!%!!!!#%!B!W*J&gt;!!81!9!%("B9WNF:#"W97RV:3"P&gt;81!!!^!!Q!*9GFU)'FO:'6Y!"6!"A!0='&amp;D;W6E)(:B&lt;(6F)'FO!&amp;1!]!!-!!!!!!!"!!)!!!!!!!!!!!!!!!-!!!!%!A!!?!!!!!!!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%!!!!!!!!!!1!!!!!!%!"1!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 					<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
@@ -1037,7 +1037,7 @@
 					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 					<Property Name="NI.ClassItem.State" Type="Int">8400896</Property>
 				</Item>
-				<Item Name="Bit Manipulation.Get Bit (U32).vi" Type="VI" URL="../Properties/Registers/Bit Manipulation.Get Bit (U32).vi">
+				<Item Name="GE 5565PIORC.Bit Manipulation.Get Bit (U32).vi" Type="VI" URL="../Methods/GE 5565PIORC.Bit Manipulation.Get Bit (U32).vi">
 					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#D!!!!"A!%!!!!#%!B!W*J&gt;!!81!=!%("B9WNF:#"W97RV:3"P&gt;81!!!^!!Q!*9GFU)'FO:'6Y!"6!"Q!0='&amp;D;W6E)(:B&lt;(6F)'FO!&amp;1!]!!-!!!!!!!"!!)!!!!!!!!!!!!!!!-!!!!%!A!!?!!!!!!!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%!!!!!!!!!!1!!!!!!%!"1!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 					<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
@@ -1046,7 +1046,7 @@
 					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 					<Property Name="NI.ClassItem.State" Type="Int">8400896</Property>
 				</Item>
-				<Item Name="Bit Manipulation.Get Bit (U64).vi" Type="VI" URL="../Properties/Registers/Bit Manipulation.Get Bit (U64).vi">
+				<Item Name="GE 5565PIORC.Bit Manipulation.Get Bit (U64).vi" Type="VI" URL="../Methods/GE 5565PIORC.Bit Manipulation.Get Bit (U64).vi">
 					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#D!!!!"A!%!!!!#%!B!W*J&gt;!!81!A!%("B9WNF:#"W97RV:3"P&gt;81!!!^!!Q!*9GFU)'FO:'6Y!"6!#!!0='&amp;D;W6E)(:B&lt;(6F)'FO!&amp;1!]!!-!!!!!!!"!!)!!!!!!!!!!!!!!!-!!!!%!A!!?!!!!!!!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%!!!!!!!!!!1!!!!!!%!"1!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 					<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
@@ -1055,7 +1055,7 @@
 					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 					<Property Name="NI.ClassItem.State" Type="Int">8400896</Property>
 				</Item>
-				<Item Name="Bit Manipulation.Get Bit.vi" Type="VI" URL="../Properties/Registers/Bit Manipulation.Get Bit.vi">
+				<Item Name="GE 5565PIORC.Bit Manipulation.Get Bit.vi" Type="VI" URL="../Methods/GE 5565PIORC.Bit Manipulation.Get Bit.vi">
 					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!1!!!!!1!)!0,6Q;L=!!%!!!!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 					<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -1064,7 +1064,7 @@
 					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 					<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
 				</Item>
-				<Item Name="Bit Manipulation.Get Bits (U8).vi" Type="VI" URL="../Properties/Registers/Bit Manipulation.Get Bits (U8).vi">
+				<Item Name="GE 5565PIORC.Bit Manipulation.Get Bits (U8).vi" Type="VI" URL="../Methods/GE 5565PIORC.Bit Manipulation.Get Bits (U8).vi">
 					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#Z!!!!"Q!%!!!!#U!&amp;!!2C;82T!!!81!5!%("B9WNF:#"W97RV:3"P&gt;81!!".!!Q!.9GFU)'.P&gt;7ZU)#AR+1!01!-!#7*J&gt;#"J&lt;G2F?!!61!5!$X"B9WNF:#"W97RV:3"J&lt;A"5!0!!$!!!!!!!!1!#!!!!!!!!!!!!!Q!%!!!!"1)!!(A!!!!!!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!")!!!!!!!!!%!!!!!!"!!9!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 					<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
@@ -1073,7 +1073,7 @@
 					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 					<Property Name="NI.ClassItem.State" Type="Int">8400896</Property>
 				</Item>
-				<Item Name="Bit Manipulation.Get Bits (U16).vi" Type="VI" URL="../Properties/Registers/Bit Manipulation.Get Bits (U16).vi">
+				<Item Name="GE 5565PIORC.Bit Manipulation.Get Bits (U16).vi" Type="VI" URL="../Methods/GE 5565PIORC.Bit Manipulation.Get Bits (U16).vi">
 					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#Z!!!!"Q!%!!!!#U!'!!2C;82T!!!81!9!%("B9WNF:#"W97RV:3"P&gt;81!!".!!Q!.9GFU)'.P&gt;7ZU)#AR+1!01!-!#7*J&gt;#"J&lt;G2F?!!61!9!$X"B9WNF:#"W97RV:3"J&lt;A"5!0!!$!!!!!!!!1!#!!!!!!!!!!!!!Q!%!!!!"1)!!(A!!!!!!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!")!!!!!!!!!%!!!!!!"!!9!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 					<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
@@ -1082,7 +1082,7 @@
 					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 					<Property Name="NI.ClassItem.State" Type="Int">8400896</Property>
 				</Item>
-				<Item Name="Bit Manipulation.Get Bits (U32).vi" Type="VI" URL="../Properties/Registers/Bit Manipulation.Get Bits (U32).vi">
+				<Item Name="GE 5565PIORC.Bit Manipulation.Get Bits (U32).vi" Type="VI" URL="../Methods/GE 5565PIORC.Bit Manipulation.Get Bits (U32).vi">
 					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#Z!!!!"Q!%!!!!#U!(!!2C;82T!!!81!=!%("B9WNF:#"W97RV:3"P&gt;81!!".!!Q!.9GFU)'.P&gt;7ZU)#AR+1!01!-!#7*J&gt;#"J&lt;G2F?!!61!=!$X"B9WNF:#"W97RV:3"J&lt;A"5!0!!$!!!!!!!!1!#!!!!!!!!!!!!!Q!%!!!!"1)!!(A!!!!!!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!")!!!!!!!!!%!!!!!!"!!9!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 					<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
@@ -1091,7 +1091,7 @@
 					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 					<Property Name="NI.ClassItem.State" Type="Int">8400896</Property>
 				</Item>
-				<Item Name="Bit Manipulation.Get Bits (U64).vi" Type="VI" URL="../Properties/Registers/Bit Manipulation.Get Bits (U64).vi">
+				<Item Name="GE 5565PIORC.Bit Manipulation.Get Bits (U64).vi" Type="VI" URL="../Methods/GE 5565PIORC.Bit Manipulation.Get Bits (U64).vi">
 					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#Z!!!!"Q!%!!!!#U!)!!2C;82T!!!81!A!%("B9WNF:#"W97RV:3"P&gt;81!!".!!Q!.9GFU)'.P&gt;7ZU)#AR+1!01!-!#7*J&gt;#"J&lt;G2F?!!61!A!$X"B9WNF:#"W97RV:3"J&lt;A"5!0!!$!!!!!!!!1!#!!!!!!!!!!!!!Q!%!!!!"1)!!(A!!!!!!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!")!!!!!!!!!%!!!!!!"!!9!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 					<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
@@ -1100,7 +1100,7 @@
 					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 					<Property Name="NI.ClassItem.State" Type="Int">8400896</Property>
 				</Item>
-				<Item Name="Bit Manipulation.Get Bits.vi" Type="VI" URL="../Properties/Registers/Bit Manipulation.Get Bits.vi">
+				<Item Name="GE 5565PIORC.Bit Manipulation.Get Bits.vi" Type="VI" URL="../Methods/GE 5565PIORC.Bit Manipulation.Get Bits.vi">
 					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!1!!!!!1!)!0,6Q;LL!!%!!!!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 					<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -1109,7 +1109,7 @@
 					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 					<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
 				</Item>
-				<Item Name="Bit Manipulation.Set Bit (U8).vi" Type="VI" URL="../Properties/Registers/Bit Manipulation.Set Bit (U8).vi">
+				<Item Name="GE 5565PIORC.Bit Manipulation.Set Bit (U8).vi" Type="VI" URL="../Methods/GE 5565PIORC.Bit Manipulation.Set Bit (U8).vi">
 					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#D!!!!"A!%!!!!&amp;U!&amp;!""Q97.L:71A&gt;G&amp;M&gt;75A&lt;X6U!!!01!-!#7*J&gt;#"J&lt;G2F?!!)1#%$9GFU!"6!"1!0='&amp;D;W6E)(:B&lt;(6F)'FO!&amp;1!]!!-!!!!!!!!!!%!!!!!!!!!!!!!!!)!!Q!%!A!!?!!!!!!!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%!!!!"!!!!!1!!!!!!%!"1!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 					<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
@@ -1118,7 +1118,7 @@
 					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 					<Property Name="NI.ClassItem.State" Type="Int">8400896</Property>
 				</Item>
-				<Item Name="Bit Manipulation.Set Bit (U16).vi" Type="VI" URL="../Properties/Registers/Bit Manipulation.Set Bit (U16).vi">
+				<Item Name="GE 5565PIORC.Bit Manipulation.Set Bit (U16).vi" Type="VI" URL="../Methods/GE 5565PIORC.Bit Manipulation.Set Bit (U16).vi">
 					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#D!!!!"A!%!!!!&amp;U!'!""Q97.L:71A&gt;G&amp;M&gt;75A&lt;X6U!!!01!-!#7*J&gt;#"J&lt;G2F?!!)1#%$9GFU!"6!"A!0='&amp;D;W6E)(:B&lt;(6F)'FO!&amp;1!]!!-!!!!!!!!!!%!!!!!!!!!!!!!!!)!!Q!%!A!!?!!!!!!!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%!!!!"!!!!!1!!!!!!%!"1!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 					<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
@@ -1127,7 +1127,7 @@
 					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 					<Property Name="NI.ClassItem.State" Type="Int">8400896</Property>
 				</Item>
-				<Item Name="Bit Manipulation.Set Bit (U32).vi" Type="VI" URL="../Properties/Registers/Bit Manipulation.Set Bit (U32).vi">
+				<Item Name="GE 5565PIORC.Bit Manipulation.Set Bit (U32).vi" Type="VI" URL="../Methods/GE 5565PIORC.Bit Manipulation.Set Bit (U32).vi">
 					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#D!!!!"A!%!!!!&amp;U!(!""Q97.L:71A&gt;G&amp;M&gt;75A&lt;X6U!!!01!-!#7*J&gt;#"J&lt;G2F?!!)1#%$9GFU!"6!"Q!0='&amp;D;W6E)(:B&lt;(6F)'FO!&amp;1!]!!-!!!!!!!!!!%!!!!!!!!!!!!!!!)!!Q!%!A!!?!!!!!!!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%!!!!"!!!!!1!!!!!!%!"1!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 					<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
@@ -1136,7 +1136,7 @@
 					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 					<Property Name="NI.ClassItem.State" Type="Int">8400896</Property>
 				</Item>
-				<Item Name="Bit Manipulation.Set Bit (U64).vi" Type="VI" URL="../Properties/Registers/Bit Manipulation.Set Bit (U64).vi">
+				<Item Name="GE 5565PIORC.Bit Manipulation.Set Bit (U64).vi" Type="VI" URL="../Methods/GE 5565PIORC.Bit Manipulation.Set Bit (U64).vi">
 					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#D!!!!"A!%!!!!&amp;U!)!""Q97.L:71A&gt;G&amp;M&gt;75A&lt;X6U!!!01!-!#7*J&gt;#"J&lt;G2F?!!)1#%$9GFU!"6!#!!0='&amp;D;W6E)(:B&lt;(6F)'FO!&amp;1!]!!-!!!!!!!!!!%!!!!!!!!!!!!!!!)!!Q!%!A!!?!!!!!!!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%!!!!"!!!!!1!!!!!!%!"1!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 					<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
@@ -1145,7 +1145,7 @@
 					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 					<Property Name="NI.ClassItem.State" Type="Int">8400896</Property>
 				</Item>
-				<Item Name="Bit Manipulation.Set Bit.vi" Type="VI" URL="../Properties/Registers/Bit Manipulation.Set Bit.vi">
+				<Item Name="GE 5565PIORC.Bit Manipulation.Set Bit.vi" Type="VI" URL="../Methods/GE 5565PIORC.Bit Manipulation.Set Bit.vi">
 					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!1!!!!!1!)!0,6Q;LV!!%!!!!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 					<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -1154,7 +1154,7 @@
 					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 					<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
 				</Item>
-				<Item Name="Bit Manipulation.Set Bits (U8).vi" Type="VI" URL="../Properties/Registers/Bit Manipulation.Set Bits (U8).vi">
+				<Item Name="GE 5565PIORC.Bit Manipulation.Set Bits (U8).vi" Type="VI" URL="../Methods/GE 5565PIORC.Bit Manipulation.Set Bits (U8).vi">
 					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#Z!!!!"Q!%!!!!&amp;U!&amp;!""Q97.L:71A&gt;G&amp;M&gt;75A&lt;X6U!!!41!-!$7*J&gt;#"D&lt;X6O&gt;#!I-3E!$U!$!!FC;81A;7ZE:8A!#U!&amp;!!2C;82T!!!61!5!$X"B9WNF:#"W97RV:3"J&lt;A"5!0!!$!!!!!!!!!!"!!!!!!!!!!!!!A!$!!1!"1)!!(A!!!!!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!"!!!!!3!!!!%!!!!!!"!!9!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 					<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
@@ -1163,7 +1163,7 @@
 					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 					<Property Name="NI.ClassItem.State" Type="Int">8400896</Property>
 				</Item>
-				<Item Name="Bit Manipulation.Set Bits (U16).vi" Type="VI" URL="../Properties/Registers/Bit Manipulation.Set Bits (U16).vi">
+				<Item Name="GE 5565PIORC.Bit Manipulation.Set Bits (U16).vi" Type="VI" URL="../Methods/GE 5565PIORC.Bit Manipulation.Set Bits (U16).vi">
 					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#Z!!!!"Q!%!!!!&amp;U!'!""Q97.L:71A&gt;G&amp;M&gt;75A&lt;X6U!!!41!-!$7*J&gt;#"D&lt;X6O&gt;#!I-3E!$U!$!!FC;81A;7ZE:8A!#U!'!!2C;82T!!!61!9!$X"B9WNF:#"W97RV:3"J&lt;A"5!0!!$!!!!!!!!!!"!!!!!!!!!!!!!A!$!!1!"1)!!(A!!!!!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!"!!!!!3!!!!%!!!!!!"!!9!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 					<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
@@ -1172,7 +1172,7 @@
 					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 					<Property Name="NI.ClassItem.State" Type="Int">8400896</Property>
 				</Item>
-				<Item Name="Bit Manipulation.Set Bits (U32).vi" Type="VI" URL="../Properties/Registers/Bit Manipulation.Set Bits (U32).vi">
+				<Item Name="GE 5565PIORC.Bit Manipulation.Set Bits (U32).vi" Type="VI" URL="../Methods/GE 5565PIORC.Bit Manipulation.Set Bits (U32).vi">
 					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#Z!!!!"Q!%!!!!&amp;U!(!""Q97.L:71A&gt;G&amp;M&gt;75A&lt;X6U!!!41!-!$7*J&gt;#"D&lt;X6O&gt;#!I-3E!$U!$!!FC;81A;7ZE:8A!#U!(!!2C;82T!!!61!=!$X"B9WNF:#"W97RV:3"J&lt;A"5!0!!$!!!!!!!!!!"!!!!!!!!!!!!!A!$!!1!"1)!!(A!!!!!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!"!!!!!3!!!!%!!!!!!"!!9!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 					<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
@@ -1181,7 +1181,7 @@
 					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 					<Property Name="NI.ClassItem.State" Type="Int">8400896</Property>
 				</Item>
-				<Item Name="Bit Manipulation.Set Bits (U64).vi" Type="VI" URL="../Properties/Registers/Bit Manipulation.Set Bits (U64).vi">
+				<Item Name="GE 5565PIORC.Bit Manipulation.Set Bits (U64).vi" Type="VI" URL="../Methods/GE 5565PIORC.Bit Manipulation.Set Bits (U64).vi">
 					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#Z!!!!"Q!%!!!!&amp;U!)!""Q97.L:71A&gt;G&amp;M&gt;75A&lt;X6U!!!41!-!$7*J&gt;#"D&lt;X6O&gt;#!I-3E!$U!$!!FC;81A;7ZE:8A!#U!)!!2C;82T!!!61!A!$X"B9WNF:#"W97RV:3"J&lt;A"5!0!!$!!!!!!!!!!"!!!!!!!!!!!!!A!$!!1!"1)!!(A!!!!!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!"!!!!!3!!!!%!!!!!!"!!9!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 					<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
@@ -1190,7 +1190,7 @@
 					<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 					<Property Name="NI.ClassItem.State" Type="Int">8400896</Property>
 				</Item>
-				<Item Name="Bit Manipulation.Set Bits.vi" Type="VI" URL="../Properties/Registers/Bit Manipulation.Set Bits.vi">
+				<Item Name="GE 5565PIORC.Bit Manipulation.Set Bits.vi" Type="VI" URL="../Methods/GE 5565PIORC.Bit Manipulation.Set Bits.vi">
 					<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!1!!!!!1!)!0,6Q;L_!!%!!!!!!!!</Property>
 					<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 					<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>

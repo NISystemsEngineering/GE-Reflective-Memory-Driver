@@ -10,7 +10,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="GE 5565PIORC.lvclass" Type="LVClass" URL="../../Source/GE 5565PIORC.lvclass"/>
+		<Item Name="GE 5565PIORC.lvclass" Type="LVClass" URL="../GE 5565PIORC.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
