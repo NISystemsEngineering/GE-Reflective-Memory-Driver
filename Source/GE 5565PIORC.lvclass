@@ -5044,13 +5044,4 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1074278912</Property>
 		</Item>
 	</Item>
-	<Item Name="GE 5565PIORC.DMA.Write (Multiple).vi" Type="VI" URL="../Methods/GE 5565PIORC.DMA.Write (Multiple).vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!0=!!!!'!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!%%!B#H2J&lt;76E)'^V&gt;$]!!"&amp;!"Q!+5E:.)'^G:H.F&gt;!!!'U!(!"6E:8.D=GFQ&gt;'^S)("U=C!I6EF413E!'U!(!"2E:8.D=GFQ&gt;'^S)("U=C!I5E:.+1!!&amp;5!(!!^E:8.D=GFQ&gt;'^S)(.J?G5!&amp;U!(!""E982B)("U=C!I&lt;'^X:8)J!!!81!=!%'2B&gt;'%A=(2S)#BV=("F=CE!!!^!"Q!*:'&amp;U93"T;8JF!"F!"Q!4&lt;G6Y&gt;#"E:8.D=GFQ&gt;'^S)("U=A"W!0(8&lt;T.O!!!!!B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=T2(23!V.49V5%F05E-O6(FQ:72F:CZ%45%A1GRP9WMA2'6T9X*J=(2P=C"198*B&lt;8-O9X2M!#2!5!!%!!E!#A!,!!Q2:'6T9X*J=(2P=C"Q98*B&lt;8-!&lt;Q$RVX%JDA!!!!)52U5A.45W.6"*4V*$,GRW9WRB=X-N2U5A.45W.6"*4V*$,F2Z='6E:79O2%V")%*M&lt;W.L)%2F=W.S;8"U&lt;X)O9X2M!#2!5!!%!!9!"Q!)!!U11GRP9WMA2'6T9X*J=(2P=A!!(E"!!!(`````!!Y21GRP9WMA2'6T9X*J=(2P=H-!&lt;!$RVX'REQ!!!!)52U5A.45W.6"*4V*$,GRW9WRB=X-K2U5A.45W.6"*4V*$,F2Z='6E:79O2%V")&amp;2S97ZT:G6S)&amp;.Q:7-O9X2M!#2!5!!#!!5!$R6%45%A6(*B&lt;H.G:8)A5X"F9S"E&gt;8!!-E"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!""(23!V.49V5%F05E-A&lt;X6U!!!%!!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!81!=!%82J&lt;76P&gt;81A&lt;8-A+$%Q-$!J!'A!]&gt;&gt;RM:-!!!!#&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T+E&gt;&amp;)$5V.D6135^31SZ5?8"F:'6G,E2.13"5=G&amp;O=W:F=C"4='6D,G.U&lt;!!A1&amp;!!!A!&amp;!!]22%V")&amp;2S97ZT:G6S)&amp;.Q:7-!-%"Q!"Y!!"952U5A.45W.6"*4V*$,GRW9WRB=X-!!!^(23!V.49V5%F05E-A;7Y!91$Q!!Q!!Q!%!"!!%1!3!")!%A!3!"-!&amp;!!6!"9$!!"Y!!!.#!!!#1!!!!U+!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!)!!!!%!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!&amp;Q!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">536592</Property>
-	</Item>
 </LVClass>
