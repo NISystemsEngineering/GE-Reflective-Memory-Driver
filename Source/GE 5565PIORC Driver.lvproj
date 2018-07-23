@@ -10,6 +10,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="GE 5565PIORC Reflective Memory Driver.vipb" Type="Document" URL="../GE 5565PIORC Reflective Memory Driver.vipb"/>
 		<Item Name="GE 5565PIORC.lvclass" Type="LVClass" URL="../GE 5565PIORC.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
