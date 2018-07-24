@@ -23,6 +23,7 @@
 		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
 		<Property Name="host.TargetCPUID" Type="UInt">3</Property>
 		<Property Name="host.TargetOSID" Type="UInt">15</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="target.cleanupVisa" Type="Bool">false</Property>
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
@@ -45,14 +46,16 @@
 		<Property Name="target.server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="target.server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="target.server.tcp.access" Type="Str">+*</Property>
-		<Property Name="target.server.tcp.enabled" Type="Bool">false</Property>
+		<Property Name="target.server.tcp.enabled" Type="Bool">true</Property>
 		<Property Name="target.server.tcp.paranoid" Type="Bool">true</Property>
 		<Property Name="target.server.tcp.port" Type="Int">3363</Property>
-		<Property Name="target.server.tcp.serviceName" Type="Str">Main Application Instance/VI Server</Property>
+		<Property Name="target.server.tcp.serviceName" Type="Str"></Property>
 		<Property Name="target.server.tcp.serviceName.default" Type="Str">Main Application Instance/VI Server</Property>
 		<Property Name="target.server.vi.access" Type="Str">+*</Property>
 		<Property Name="target.server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="target.server.vi.propertiesEnabled" Type="Bool">true</Property>
+		<Property Name="target.server.viscripting.showScriptingOperationsInContextHelp" Type="Bool">false</Property>
+		<Property Name="target.server.viscripting.showScriptingOperationsInEditor" Type="Bool">false</Property>
 		<Property Name="target.WebServer.Config" Type="Str">Listen 8000
 
 NI.ServerName default
@@ -91,7 +94,41 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="Unit Tests" Type="Folder">
+			<Item Name="Test VIs" Type="Folder">
+				<Item Name="GE 5565PIORC.PIO.Scalar.vi" Type="VI" URL="../Unit Tests/Test VIs/GE 5565PIORC.PIO.Scalar.vi"/>
+				<Item Name="GE 5565PIORC.Close.vi" Type="VI" URL="../Unit Tests/Test VIs/GE 5565PIORC.Close.vi"/>
+				<Item Name="GE 5565PIORC.Open.vi" Type="VI" URL="../Unit Tests/Test VIs/GE 5565PIORC.Open.vi"/>
+			</Item>
+			<Item Name="01 - Configuration" Type="Folder">
+				<Item Name="GE 5565PIORC.Open.lvtest" Type="TestItem" URL="../Unit Tests/GE 5565PIORC.Open.lvtest">
+					<Property Name="utf.test.bind" Type="Str">GE 5565PIORC.Open.vi</Property>
+					<Property Name="utf.vector.test.bind" Type="Str">A0FA5CD9-C0AE-C3DF-607D-492DCC465589</Property>
+				</Item>
+			</Item>
+			<Item Name="02 - PIO" Type="Folder">
+				<Item Name="GE 5565PIORC.PIO.Scalar.lvtest" Type="TestItem" URL="../Unit Tests/GE 5565PIORC.PIO.Scalar.lvtest">
+					<Property Name="utf.test.bind" Type="Str">GE 5565PIORC.PIO.Scalar.vi</Property>
+					<Property Name="utf.vector.test.bind" Type="Str">3BFB9DD5-6A73-A491-300A-0FCB9D7AE957</Property>
+				</Item>
+			</Item>
+		</Item>
+		<Item Name="Typedefs" Type="Folder">
+			<Item Name="GE 5565PIORC.Data Types.ctl" Type="VI" URL="../Typedefs/GE 5565PIORC.Data Types.ctl"/>
+		</Item>
+		<Item Name="GE 5565PIORC.VISA Resource Name.vi" Type="VI" URL="../Unit Tests/Test VIs/GE 5565PIORC.VISA Resource Name.vi"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="GE 5565PIORC.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/National Instruments/GE Reflective Memory Driver/GE 5565PIORC.lvclass"/>
+				<Item Name="VISA Register Access Address Space.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Register Access Address Space.ctl"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Select Event Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/Select Event Type.ctl"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+			</Item>
+			<Item Name="visa32.dll" Type="Document" URL="visa32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>
