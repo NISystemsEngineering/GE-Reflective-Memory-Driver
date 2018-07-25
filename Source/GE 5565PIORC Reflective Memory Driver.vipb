@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-07-16 21:17:39" Modified_Date="2018-07-25 10:56:16" Creator="Ryan" Comments="" ID="f4a0a433f9fad787b44c69ca448ad2e8">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-07-16 21:17:39" Modified_Date="2018-07-25 14:58:41" Creator="Ryan" Comments="" ID="c7c10190930c0cee78c54352c17f77d5">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_GE_5565PIORC_Driver</Package_File_Name>
-    <Library_Version>0.1.1.2</Library_Version>
+    <Library_Version>0.1.2.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>..\..\..\..\..\..\..\builds</Library_Output_Folder>
@@ -50,7 +50,10 @@
       <Copyright/>
       <Packager>National Instruments</Packager>
       <URL/>
-      <Release_Notes>0.1.1:
+      <Release_Notes>0.1.2:
+Fixed VISA issue where offset had to be aligned to a multiple of the data type size being transferred via PIO.
+
+0.1.1:
 Fixed bug related to how CLFN was configured for custom VISA calls.
 Fixed bug related to size field of VISA Move Out String VIs.
 
@@ -343,7 +346,7 @@ First build.</Release_Notes>
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>318E7B0449575AD28861985D5AE4D2EB</GUID>
+      <GUID>4CC6CBBD99B8C95D270E8DE2DB6F06C4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -448,7 +451,7 @@ First build.</Release_Notes>
         <Path>Methods\GE 5565PIORC.PIO.Read In-Place.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9D1633EC6883BA4257E5D6081816CD94</GUID>
+      <GUID>77210CD3474F3FC5381E34E60BF0C690</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -623,7 +626,7 @@ First build.</Release_Notes>
         <Path>Methods\GE 5565PIORC.DMA.Size.vi</Path>
         <VI_Title>DMA Size</VI_Title>
       </Items_Data>
-      <GUID>1CF3421D7FC98F02BA31AC0B4E3B9D63</GUID>
+      <GUID>10C445EFF478868436ABF5E12EB818B2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -672,7 +675,7 @@ First build.</Release_Notes>
         <Path>Methods\GE 5565PIORC.DMA.Scatter-Gather.Link Block Descriptors.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3138FE6CCD4EFC26E3C00E7A732C434D</GUID>
+      <GUID>985F15C1A63051DF0F306B8AAC46156A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -763,7 +766,7 @@ First build.</Release_Notes>
         <Path>Methods\GE 5565PIORC.DMA.Block.Read.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DEEC8FB6367C4385314E7AEA219952FE</GUID>
+      <GUID>2FEF22517E3ECD59AA135AF26C2F884A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -826,7 +829,7 @@ First build.</Release_Notes>
         <Path>Methods\GE 5565PIORC.PXI Interrupts.Discard Events.vi</Path>
         <VI_Title>Discard PXI Interrupt Events</VI_Title>
       </Items_Data>
-      <GUID>76DA3C155FE7B7E0EA8F4A95BA4988A4</GUID>
+      <GUID>CC5AFE5FB667CA922BF471B8F061875A</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
