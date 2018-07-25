@@ -119,11 +119,11 @@ AddOutputFilter chunkFilter
 		<Item Name="GE 5565PIORC.VISA Resource Name.vi" Type="VI" URL="../Unit Tests/Test VIs/GE 5565PIORC.VISA Resource Name.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="GE 5565PIORC.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/National Instruments/GE Reflective Memory Driver/GE 5565PIORC.lvclass"/>
-				<Item Name="VISA Register Access Address Space.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Register Access Address Space.ctl"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="Select Event Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/Select Event Type.ctl"/>
+				<Item Name="GE 5565PIORC.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/GE Reflective Memory Driver/GE 5565PIORC.lvclass"/>
+				<Item Name="VISA Register Access Address Space.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Register Access Address Space.ctl"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Select Event Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/Select Event Type.ctl"/>
 			</Item>
 			<Item Name="visa32.dll" Type="Document" URL="visa32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
