@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-07-16 21:17:39" Modified_Date="2018-07-17 10:03:16" Creator="Ryan" Comments="" ID="ceb2bc0cdffec1be1899fcc83eb8c378">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-07-16 21:17:39" Modified_Date="2018-07-25 10:43:52" Creator="Ryan" Comments="" ID="e91062a5bef77409bab022c06102ac77">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_GE_5565PIORC_Driver</Package_File_Name>
-    <Library_Version>0.1.0.1</Library_Version>
+    <Library_Version>0.1.1.1</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>..\..\..\..\..\..\..\builds</Library_Output_Folder>
@@ -50,19 +50,23 @@
       <Copyright/>
       <Packager>National Instruments</Packager>
       <URL/>
-      <Release_Notes>0.1.0:
+      <Release_Notes>0.1.1:
+Fixed bug related to how CLFN was configured for custom VISA calls.
+Fixed bug related to size field of VISA Move Out String VIs.
+
+0.1.0:
 First build.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path/>
+        <Path>&lt;vi.lib&gt;\NI\GE Reflective Memory Driver</Path>
       </Toolkit_VIs>
       <Examples>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path>&lt;application&gt;\examples\National Instruments\GE Reflective Memory</Path>
+        <Path>&lt;application&gt;\examples\NI\GE Reflective Memory</Path>
       </Examples>
       <Custom_Probes>
         <LLB>false</LLB>
@@ -180,6 +184,9 @@ First build.</Release_Notes>
       </Exclusions>
       <Exclusions>
         <Path>Source/GE 5565PIORC Driver.lvproj</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Test</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>..\LICENSE</License_Agreement_Filepath>
@@ -336,7 +343,7 @@ First build.</Release_Notes>
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>ADA38BD94ECCD54B09B065DCA34431A7</GUID>
+      <GUID>A77748E869DA7E4FA9157AF488E541CD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -441,7 +448,7 @@ First build.</Release_Notes>
         <Path>Methods\GE 5565PIORC.PIO.Read In-Place.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EC05CFAB4143C693B0F68FA2DDE72B29</GUID>
+      <GUID>85ADAD6BFB75D877CBC62910AB456037</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -616,7 +623,7 @@ First build.</Release_Notes>
         <Path>Methods\GE 5565PIORC.DMA.Size.vi</Path>
         <VI_Title>DMA Size</VI_Title>
       </Items_Data>
-      <GUID>2850854A49EA720B4BB9F66907CD4480</GUID>
+      <GUID>6A1C712A82FD12C55DF66DEE4D74ABB8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -665,7 +672,7 @@ First build.</Release_Notes>
         <Path>Methods\GE 5565PIORC.DMA.Scatter-Gather.Link Block Descriptors.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>157043BB97EC73525F4C29502D05F48B</GUID>
+      <GUID>1FC9F0663C59CA0A66BDA0AD064046E5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -756,7 +763,7 @@ First build.</Release_Notes>
         <Path>Methods\GE 5565PIORC.DMA.Block.Read.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>460682B6E04A1E2AE11C36CB295670C8</GUID>
+      <GUID>1D28274F523532C08C3861ADFBD06865</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -819,7 +826,7 @@ First build.</Release_Notes>
         <Path>Methods\GE 5565PIORC.PXI Interrupts.Discard Events.vi</Path>
         <VI_Title>Discard PXI Interrupt Events</VI_Title>
       </Items_Data>
-      <GUID>FC05C3FB373955EE9941A4A4B118AB4E</GUID>
+      <GUID>EAC544935D44996EAD4C11A6B1762D84</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
