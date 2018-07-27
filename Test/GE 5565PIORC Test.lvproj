@@ -23,7 +23,6 @@
 		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
 		<Property Name="host.TargetCPUID" Type="UInt">3</Property>
 		<Property Name="host.TargetOSID" Type="UInt">15</Property>
-		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="target.cleanupVisa" Type="Bool">false</Property>
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
@@ -94,36 +93,47 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
+		<Item Name="Typedefs" Type="Folder">
+			<Item Name="GE 5565PIORC.Data Types.ctl" Type="VI" URL="../Typedefs/GE 5565PIORC.Data Types.ctl"/>
+		</Item>
 		<Item Name="Unit Tests" Type="Folder">
-			<Item Name="Test VIs" Type="Folder">
-				<Item Name="GE 5565PIORC.PIO.Scalar.vi" Type="VI" URL="../Unit Tests/Test VIs/GE 5565PIORC.PIO.Scalar.vi"/>
-				<Item Name="GE 5565PIORC.Close.vi" Type="VI" URL="../Unit Tests/Test VIs/GE 5565PIORC.Close.vi"/>
-				<Item Name="GE 5565PIORC.Open.vi" Type="VI" URL="../Unit Tests/Test VIs/GE 5565PIORC.Open.vi"/>
-			</Item>
-			<Item Name="01 - Configuration" Type="Folder">
-				<Item Name="GE 5565PIORC.Open.lvtest" Type="TestItem" URL="../Unit Tests/GE 5565PIORC.Open.lvtest">
+			<Item Name="01 - Init" Type="Folder">
+				<Item Name="GE 5565PIORC.Init.lvtest" Type="TestItem" URL="../Unit Tests/GE 5565PIORC.Init.lvtest">
 					<Property Name="utf.test.bind" Type="Str">GE 5565PIORC.Open.vi</Property>
 					<Property Name="utf.vector.test.bind" Type="Str">A0FA5CD9-C0AE-C3DF-607D-492DCC465589</Property>
 				</Item>
 			</Item>
 			<Item Name="02 - PIO" Type="Folder">
-				<Item Name="GE 5565PIORC.PIO.Scalar.lvtest" Type="TestItem" URL="../Unit Tests/GE 5565PIORC.PIO.Scalar.lvtest">
+				<Item Name="GE 5565PIORC.PIO.01.Scalar.lvtest" Type="TestItem" URL="../Unit Tests/GE 5565PIORC.PIO.01.Scalar.lvtest">
 					<Property Name="utf.test.bind" Type="Str">GE 5565PIORC.PIO.Scalar.vi</Property>
 					<Property Name="utf.vector.test.bind" Type="Str">3BFB9DD5-6A73-A491-300A-0FCB9D7AE957</Property>
 				</Item>
+				<Item Name="GE 5565PIORC.PIO.02.Array.lvtest" Type="TestItem" URL="../Unit Tests/GE 5565PIORC.PIO.02.Array.lvtest">
+					<Property Name="utf.test.bind" Type="Str">GE 5565PIORC.PIO.Array.vi</Property>
+					<Property Name="utf.vector.test.bind" Type="Str">427D8228-2717-7E95-837D-853C97DA78BA</Property>
+				</Item>
+				<Item Name="GE 5565PIORC.PIO.03.Endianness.lvtest" Type="TestItem" URL="../Unit Tests/GE 5565PIORC.PIO.03.Endianness.lvtest">
+					<Property Name="utf.test.bind" Type="Str">GE 5565PIORC.PIO.Endianness.vi</Property>
+					<Property Name="utf.vector.test.bind" Type="Str">6D7957FF-44A5-9063-DF52-04F6A2CC512F</Property>
+				</Item>
+			</Item>
+			<Item Name="03 - DMA" Type="Folder"/>
+			<Item Name="Test VIs" Type="Folder">
+				<Item Name="GE 5565PIORC.Close.vi" Type="VI" URL="../Unit Tests/Test VIs/GE 5565PIORC.Close.vi"/>
+				<Item Name="GE 5565PIORC.DMA.vi" Type="VI" URL="../Unit Tests/Test VIs/GE 5565PIORC.DMA.vi"/>
+				<Item Name="GE 5565PIORC.Open.vi" Type="VI" URL="../Unit Tests/Test VIs/GE 5565PIORC.Open.vi"/>
+				<Item Name="GE 5565PIORC.PIO.Array.vi" Type="VI" URL="../Unit Tests/Test VIs/GE 5565PIORC.PIO.Array.vi"/>
+				<Item Name="GE 5565PIORC.PIO.Endianness.vi" Type="VI" URL="../Unit Tests/Test VIs/GE 5565PIORC.PIO.Endianness.vi"/>
+				<Item Name="GE 5565PIORC.PIO.Scalar.vi" Type="VI" URL="../Unit Tests/Test VIs/GE 5565PIORC.PIO.Scalar.vi"/>
 			</Item>
 		</Item>
-		<Item Name="Typedefs" Type="Folder">
-			<Item Name="GE 5565PIORC.Data Types.ctl" Type="VI" URL="../Typedefs/GE 5565PIORC.Data Types.ctl"/>
-		</Item>
-		<Item Name="GE 5565PIORC.VISA Resource Name.vi" Type="VI" URL="../Unit Tests/Test VIs/GE 5565PIORC.VISA Resource Name.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="GE 5565PIORC.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/GE Reflective Memory Driver/GE 5565PIORC.lvclass"/>
-				<Item Name="VISA Register Access Address Space.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Register Access Address Space.ctl"/>
-				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Select Event Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/Select Event Type.ctl"/>
+				<Item Name="VISA Register Access Address Space.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Register Access Address Space.ctl"/>
 			</Item>
 			<Item Name="visa32.dll" Type="Document" URL="visa32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
