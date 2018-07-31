@@ -117,10 +117,25 @@ AddOutputFilter chunkFilter
 					<Property Name="utf.vector.test.bind" Type="Str">6D7957FF-44A5-9063-DF52-04F6A2CC512F</Property>
 				</Item>
 			</Item>
-			<Item Name="03 - DMA" Type="Folder"/>
+			<Item Name="03 - DMA" Type="Folder">
+				<Item Name="GE 5565PIORC.DMA.01.Block.lvtest" Type="TestItem" URL="../Unit Tests/GE 5565PIORC.DMA.01.Block.lvtest">
+					<Property Name="utf.test.bind" Type="Str">GE 5565PIORC.DMA.Block.vi</Property>
+					<Property Name="utf.vector.test.bind" Type="Str">254124B3-369B-D009-1207-B90337FEA0B0</Property>
+				</Item>
+				<Item Name="GE 5565PIORC.DMA.02.Scatter-Gather.lvtest" Type="TestItem" URL="../Unit Tests/GE 5565PIORC.DMA.02.Scatter-Gather.lvtest">
+					<Property Name="utf.test.bind" Type="Str">GE 5565PIORC.DMA.Scatter-Gather.vi</Property>
+					<Property Name="utf.vector.test.bind" Type="Str">B3432E2F-9A70-5AE4-C97D-CE91C39536CC</Property>
+				</Item>
+				<Item Name="GE 5565PIORC.DMA.03.Endianness.lvtest" Type="TestItem" URL="../Unit Tests/GE 5565PIORC.DMA.03.Endianness.lvtest">
+					<Property Name="utf.test.bind" Type="Str">GE 5565PIORC.DMA.Endianness.vi</Property>
+					<Property Name="utf.vector.test.bind" Type="Str">C70B347A-C060-144B-1F0D-9E8D4ABB3203</Property>
+				</Item>
+			</Item>
 			<Item Name="Test VIs" Type="Folder">
 				<Item Name="GE 5565PIORC.Close.vi" Type="VI" URL="../Unit Tests/Test VIs/GE 5565PIORC.Close.vi"/>
-				<Item Name="GE 5565PIORC.DMA.vi" Type="VI" URL="../Unit Tests/Test VIs/GE 5565PIORC.DMA.vi"/>
+				<Item Name="GE 5565PIORC.DMA.Block.vi" Type="VI" URL="../Unit Tests/Test VIs/GE 5565PIORC.DMA.Block.vi"/>
+				<Item Name="GE 5565PIORC.DMA.Endianness.vi" Type="VI" URL="../Unit Tests/Test VIs/GE 5565PIORC.DMA.Endianness.vi"/>
+				<Item Name="GE 5565PIORC.DMA.Scatter-Gather.vi" Type="VI" URL="../Unit Tests/Test VIs/GE 5565PIORC.DMA.Scatter-Gather.vi"/>
 				<Item Name="GE 5565PIORC.Open.vi" Type="VI" URL="../Unit Tests/Test VIs/GE 5565PIORC.Open.vi"/>
 				<Item Name="GE 5565PIORC.PIO.Array.vi" Type="VI" URL="../Unit Tests/Test VIs/GE 5565PIORC.PIO.Array.vi"/>
 				<Item Name="GE 5565PIORC.PIO.Endianness.vi" Type="VI" URL="../Unit Tests/Test VIs/GE 5565PIORC.PIO.Endianness.vi"/>
