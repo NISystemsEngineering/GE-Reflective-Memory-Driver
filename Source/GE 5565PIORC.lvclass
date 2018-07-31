@@ -5128,6 +5128,15 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1074278912</Property>
 		</Item>
+		<Item Name="GE 5565PIORC.Typedef.DMA Polling Mode.ctl" Type="VI" URL="../Typedefs/GE 5565PIORC.Typedef.DMA Polling Mode.ctl">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)E!!!!$!!21!=!#F*'43"P:G:T:81!!"N!"Q!6:'6T9X*J=(2P=C"Q&gt;()A+&amp;:*5U%J!"N!"Q!5:'6T9X*J=(2P=C"Q&gt;()A+&amp;*'43E!!"6!"Q!0:'6T9X*J=(2P=C"T;8JF!"&gt;!"Q!1:'&amp;U93"Q&gt;()A+'RP&gt;W6S+1!!&amp;U!(!""E982B)("U=C!I&gt;8"Q:8)J!!!01!=!#72B&gt;'%A=WF[:1!:1!=!%WZF?(1A:'6T9X*J=(2P=C"Q&gt;()!&gt;A$RVW]T&lt;A!!!!)52U5A.45W.6"*4V*$,GRW9WRB=X-U2U5A.45W.6"*4V*$,F2Z='6E:79O2%V")%*M&lt;W.L)%2F=W.S;8"U&lt;X)A5'&amp;S97VT,G.U&lt;!!E1&amp;!!"!!%!!5!"A!(%72F=W.S;8"U&lt;X)A='&amp;S97VT!']!]&gt;&gt;R+9Y!!!!#&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T,5&gt;&amp;)$5V.D6135^31SZ5?8"F:'6G,E2.13"#&lt;'^D;S"%:8.D=GFQ&gt;'^S,G.U&lt;!!E1&amp;!!"!!"!!)!!Q!)%%*M&lt;W.L)%2F=W.S;8"U&lt;X)!!"Z!1!!"`````Q!*%5*M&lt;W.L)%2F=W.S;8"U&lt;X*T!'=!]&gt;&gt;RM:-!!!!#&amp;%&gt;&amp;)$5V.D6135^31SZM&gt;G.M98.T+5&gt;&amp;)$5V.D6135^31SZ5?8"F:'6G,E2.13"1&lt;WRM;7ZH)%VP:'5O9X2M!#"!5!!#!!!!#B&amp;%45%A6(*B&lt;H.G:8)A5X"F9Q!"!!M!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">3145728</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1074278912</Property>
+		</Item>
 		<Item Name="GE 5565PIORC.Typedef.DMA Transfer Spec.ctl" Type="VI" URL="../Typedefs/GE 5565PIORC.Typedef.DMA Transfer Spec.ctl">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%?!!!!#!!&lt;1!=!&amp;72F=W.S;8"U&lt;X)A=(2S)#B736."+1!61!=!$W2F=W.S;8"U&lt;X)A=WF[:1!@1!=!''2F=W.S;8"U&lt;X)A=(2S)#BB&lt;'FH&lt;G6E+1!!&amp;U!(!""E982B)("U=C!I&lt;'^X:8)J!!!81!=!%'2B&gt;'%A=(2S)#BV=("F=CE!!!^!"Q!*:'&amp;U93"T;8JF!"F!"Q!4&lt;G6Y&gt;#"E:8.D=GFQ&gt;'^S)("U=A"R!0%!!!!!!!!!!B2(23!V.49V5%F05E-O&lt;(:D&lt;'&amp;T=SF(23!V.49V5%F05E-O6(FQ:'6G,E2.13"5=G&amp;O=W:F=C"4='6D,G.U&lt;!!K1&amp;!!"Q!!!!%!!A!$!!1!"1!'%%*M&lt;W.L)%2F=W.S;8"U&lt;X)!!!%!"Q!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
