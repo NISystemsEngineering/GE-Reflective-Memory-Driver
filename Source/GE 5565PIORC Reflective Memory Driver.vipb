@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-07-16 21:17:39" Modified_Date="2018-08-01 14:03:14" Creator="Ryan" Comments="" ID="e423187ee3771c5418f9beb599847938">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-07-16 21:17:39" Modified_Date="2018-08-06 16:24:55" Creator="Ryan" Comments="" ID="e907589c6780f6738697d373fcced3e1">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_GE_5565PIORC_Driver</Package_File_Name>
     <Library_Version>0.3.0.7</Library_Version>
@@ -53,6 +53,7 @@
       <Release_Notes>0.3.0:
 Added clear functions for DMA Transfer Specs and multiple Block Descriptors.
 Added missing VIs to functions palette.
+Added Block DMA example.
 
 0.2.0:
 Implemented optional wait mode (polling or interrupt) to DMA Write and DMA Read VIs.
@@ -177,6 +178,18 @@ First build.</Release_Notes>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Examples</Path>
+        <Destination>1</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Examples/GE 5565PIORC Block DMA</Path>
+        <Destination>1</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
         <Password/>
@@ -204,9 +217,6 @@ First build.</Release_Notes>
       </Exclusions>
       <Exclusions>
         <Path>Test</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Examples</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>..\LICENSE</License_Agreement_Filepath>
@@ -377,7 +387,7 @@ First build.</Release_Notes>
         <Path>..\Interrupts</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1B51A541A3590D5C1E4D03597321D057</GUID>
+      <GUID>AEB7C61A2A2C88F7E0F2B7B7DEFB9361</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -482,7 +492,7 @@ First build.</Release_Notes>
         <Path>Methods\GE 5565PIORC.PIO.Read In-Place.vi</Path>
         <VI_Title>PIO Read In-Place</VI_Title>
       </Items_Data>
-      <GUID>39A407B017B6809CCEB512829537A738</GUID>
+      <GUID>87EC7BE560CF4AD7A21AA6F6237C9DE1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -685,7 +695,7 @@ First build.</Release_Notes>
         <Path>..\Polling</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A485901B4A04ADE1DAE199025FA9A412</GUID>
+      <GUID>219DBAEC0653A7493197610307307880</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -790,7 +800,7 @@ First build.</Release_Notes>
         <Path>Methods\GE 5565PIORC.DMA.Block.Clear.vi</Path>
         <VI_Title>Erase Block</VI_Title>
       </Items_Data>
-      <GUID>56E70F837B812F3F201BB5CE9ADF4CF7</GUID>
+      <GUID>5006A68A7B6C1F5E6399C0C15AFB06E9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -853,7 +863,7 @@ First build.</Release_Notes>
         <Path>Methods\GE 5565PIORC.PXI Interrupts.Discard Events.vi</Path>
         <VI_Title>Discard PXI Interrupt Events</VI_Title>
       </Items_Data>
-      <GUID>E4BD01A482C379857EA42EBC9FC54776</GUID>
+      <GUID>414DC40DE3C55B6374787C636675D555</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -902,7 +912,7 @@ First build.</Release_Notes>
         <Path>Methods\GE 5565PIORC.DMA.Poll for Done Signal.vi</Path>
         <VI_Title>Poll for Done Signal</VI_Title>
       </Items_Data>
-      <GUID>69B1A6FF2C4AB0C063642480F623FA01</GUID>
+      <GUID>C619C4E245F1401F3FF5324F06D96DAB</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
