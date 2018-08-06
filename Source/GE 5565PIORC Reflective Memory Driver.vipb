@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-07-16 21:17:39" Modified_Date="2018-08-06 16:24:55" Creator="Ryan" Comments="" ID="e907589c6780f6738697d373fcced3e1">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-07-16 21:17:39" Modified_Date="2018-08-06 16:56:45" Creator="Ryan" Comments="" ID="21944a54e067fcf6047ae9f7ec6fcd01">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_GE_5565PIORC_Driver</Package_File_Name>
-    <Library_Version>0.3.0.7</Library_Version>
+    <Library_Version>0.3.1.8</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>..\..\..\..\..\..\..\builds</Library_Output_Folder>
@@ -50,7 +50,10 @@
       <Copyright/>
       <Packager>National Instruments</Packager>
       <URL/>
-      <Release_Notes>0.3.0:
+      <Release_Notes>0.3.1:
+Fixed issue with Block DMA example files not being included correctly in previous build.
+
+0.3.0:
 Added clear functions for DMA Transfer Specs and multiple Block Descriptors.
 Added missing VIs to functions palette.
 Added Block DMA example.
@@ -387,7 +390,7 @@ First build.</Release_Notes>
         <Path>..\Interrupts</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AEB7C61A2A2C88F7E0F2B7B7DEFB9361</GUID>
+      <GUID>BAE5578E75321954C5539A23634EB671</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -492,7 +495,7 @@ First build.</Release_Notes>
         <Path>Methods\GE 5565PIORC.PIO.Read In-Place.vi</Path>
         <VI_Title>PIO Read In-Place</VI_Title>
       </Items_Data>
-      <GUID>87EC7BE560CF4AD7A21AA6F6237C9DE1</GUID>
+      <GUID>7EE78EDD2A1EFFEF1EF664B8C4748A04</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -695,7 +698,7 @@ First build.</Release_Notes>
         <Path>..\Polling</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>219DBAEC0653A7493197610307307880</GUID>
+      <GUID>C6CC71E0CDF414AB61A730E9739714EA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -800,7 +803,7 @@ First build.</Release_Notes>
         <Path>Methods\GE 5565PIORC.DMA.Block.Clear.vi</Path>
         <VI_Title>Erase Block</VI_Title>
       </Items_Data>
-      <GUID>5006A68A7B6C1F5E6399C0C15AFB06E9</GUID>
+      <GUID>478724003547788766E1BA4ADE5F58F4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -863,7 +866,7 @@ First build.</Release_Notes>
         <Path>Methods\GE 5565PIORC.PXI Interrupts.Discard Events.vi</Path>
         <VI_Title>Discard PXI Interrupt Events</VI_Title>
       </Items_Data>
-      <GUID>414DC40DE3C55B6374787C636675D555</GUID>
+      <GUID>084E9EFF19B311DD2F7E1BE6BF8EB26D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -912,7 +915,7 @@ First build.</Release_Notes>
         <Path>Methods\GE 5565PIORC.DMA.Poll for Done Signal.vi</Path>
         <VI_Title>Poll for Done Signal</VI_Title>
       </Items_Data>
-      <GUID>C619C4E245F1401F3FF5324F06D96DAB</GUID>
+      <GUID>95A2A616A863AD3751341D762C1090F7</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
